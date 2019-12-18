@@ -19,6 +19,7 @@
 body{
     text-align:center;
     margin:0px;
+    background-color:#171818;
   }
 
 img{
@@ -35,51 +36,133 @@ button{
 /* HEADER */
 
 @media only screen and (max-width: 767px){
-    .header-logo{
-        max-width:250px;
+    .container{
+      margin-left:0px;
+      margin-left:0px;
     }
     .col-7{
-        padding-top:5px;
-        padding-bottom:5px;
+      padding-top:5px;
+      padding-bottom:5px;
     }
     .col-5{
-        padding-top:15px;
-        padding-bottom:15px;
+      padding-top:15px;
+      padding-bottom:15px;
     }
-   
-        /* background-image:url("./menu.png") no-repeat; */
-  
-    /* .header-menu{
-       
-        
-        height:70%;
-        width:40%;
-        margin-left:5px;
-        margin-right:5px;
-        
-        background-color: rgba(0,0,0,.12);
-        background-repeat: no-repeat;
-        background-position: 50% 50%;
-        
+    
+    .logo-test{
+      max-height:85px;
     }
+    
+    .header-buttons{
+      margin-left:5px;
+      margin-right:5px;
+      padding:0;
 
-    .header-menu-button{
-        position:relative;
-        
-        margin:0;
     }
-
-    .header-menu-button-icon{
+    .menu-button{
         display:block;
-        background:url("./menuSmall.png") no-repeat;
-        height:100%;
-        width:100%;
-    } */
+        background:url("./menuMedium.png") no-repeat;
+        background-position:50% 50%;
+        width:52px;
+        height:50px;
+    }
+    .profile-button{
+      display:block;
+      background:url("./profileMedium.png") no-repeat;
+      background-position:50% 50%;
+      width:52px;
+      height:50px;
+  }
+    .button-background{
+      background-color: rgba(0,0,0,.12);
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      
+    }
+    
+
+    /* SHOWCASE */
+
+    .showcase-text{
+      padding-top:60px;
+    }
+    .showcase-text-title{
+      font-family:"reefbold";
+      font-size:22px;
+      line-height:1.2;
+      margin-bottom:24px;
+      text-transform:uppercase;
+      letter-spacing:3px;
+      color:#dfc777;
+    }
+
+    .showcase-text-main{
+      font-family:"reefbold";
+      font-size:36px;
+      line-height:1;
+      margin-bottom:20px;
+      margin-left:5px;
+      margin-right:5px;
+      color:white;
+      text-transform:uppercase;
+    }
+
+    .button-1{
+      font-family:"reefbold";
+      height:44px;
+      text-transform: uppercase;
+      color:white;
+      background-color:#b8994a;
+      width:85%;
+      font-size:20px;
+      font-weight: 700;
+      border-radius:3px;
+      margin-bottom:26px;
+      text-shadow:0 1px 1px rgba(0,0,0,.2);
+    }
+
+    .button-2{
+      font-family:"reefbold";
+      height:44px;
+      text-transform: uppercase;
+      color:white;
+      background-color:transparent;
+      width:85%;
+      font-size:20px;
+      font-weight: 700;
+      border-radius:3px;
+      border:2px solid rgba(241,190,68,.4);
+      margin-bottom:26px;
+    }
+
+
+    /* SERVER LIST */
+
+    .servers-section{
+      margin-top:28px;
+    }
+    .servers-title{
+      font-family:"reefbold";
+      font-size:36px;
+      color:white;
+      font-weight: 900;
+    }
+    .servers{
+      padding-right:20px;
+      padding-left:20px;
+    }
+
+    .items{
+      width:100%;
+      padding-right:15px;
+      padding-left:15px;
+      margin-bottom:10px;
+    }
 }
 
 
 
-/* CONTENT */
+/* Background */
 
 .background__image {
     position: absolute;

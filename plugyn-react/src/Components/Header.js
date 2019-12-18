@@ -10,18 +10,23 @@ class Header extends React.Component{
                         <div className="row">
                             <div className="col-7">
                                 <a className="header-logo" href="/">
-                                    <img src={logo} alt="Plugyn Store"/>
+                                    <img className="logo-test" src={logo} alt="Plugyn Store"/>
                                 </a>
                             </div>
                             <div className="col-5">
-                                {/* <button className="header-menu">
-                                    <span className="header-menu-button">
-                                        <span className="header-menu-button-icon">
+                                <div className="row">
+                                    <div className="col-5 header-buttons">
+                                        <button className="button-background">
+                                            <span className="menu-button"></span>
+                                        </button>
+                                    </div>
+                                    <div className="col-5 header-buttons">
+                                        <button className="button-background">
+                                            <span className="profile-button"></span>
+                                        </button>
+                                    </div>
+                                </div>
 
-                                        </span>
-                                    </span>
-                                </button> */}
-                                
                                 
                             </div>
                         </div>
