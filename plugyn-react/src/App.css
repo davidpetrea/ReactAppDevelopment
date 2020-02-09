@@ -13,6 +13,14 @@
 
 }
 
+@font-face {
+  font-family: 'plugynCasual';
+  src: url('WebFonts/plugynCasual.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 
 /* GENERAL */
 
@@ -31,14 +39,17 @@ button{
     border:none;
     outline:none;
 }
+a{
+ text-decoration: none; 
+}
 
 
 /* HEADER */
 
 @media only screen and (max-width: 767px){
     .container{
-      margin-left:0px;
-      margin-left:0px;
+      margin-right:auto;
+      margin-left:auto;
     }
     .col-7{
       padding-top:5px;
@@ -87,18 +98,21 @@ button{
       padding-top:60px;
     }
     .showcase-text-title{
-      font-family:"reefbold";
-      font-size:22px;
+      font-family:"plugynCasual";
+      font-weight: 900;
+      font-size:25px;
       line-height:1.2;
       margin-bottom:24px;
+      margin-left:5px;
+      margin-right:5px;
       text-transform:uppercase;
       letter-spacing:3px;
       color:#dfc777;
     }
 
     .showcase-text-main{
-      font-family:"reefbold";
-      font-size:36px;
+      font-family:"plugynCasual";
+      font-size:28px;
       line-height:1;
       margin-bottom:20px;
       margin-left:5px;
@@ -108,7 +122,7 @@ button{
     }
 
     .button-1{
-      font-family:"reefbold";
+      font-family:"plugynCasual";
       height:44px;
       text-transform: uppercase;
       color:white;
@@ -119,10 +133,11 @@ button{
       border-radius:3px;
       margin-bottom:26px;
       text-shadow:0 1px 1px rgba(0,0,0,.2);
+      cursor:pointer;
     }
 
     .button-2{
-      font-family:"reefbold";
+      font-family:"plugynCasual";
       height:44px;
       text-transform: uppercase;
       color:white;
@@ -133,6 +148,37 @@ button{
       border-radius:3px;
       border:2px solid rgba(241,190,68,.4);
       margin-bottom:26px;
+      cursor:pointer;
+    }
+    .button-3{
+      font-family:"plugynCasual";
+      height:44px;
+      text-transform: uppercase;
+      color:white;
+      background-color:rgba(0,0,0,.8);;
+      width:32%;
+      font-size:16px;
+      font-weight: 700;
+      border-radius:3px;
+      border:1px solid rgba(255,255,255,.4);
+      margin-bottom:24px;
+      text-shadow:0 1px 1px rgba(0,0,0,.2);
+      cursor:pointer;
+    }
+    .button-4{
+      font-family:"plugynCasual";
+      height:80%;
+      text-transform: uppercase;
+      color:white;
+      background-color:transparent;
+      border:1px solid #b8994a;
+      width:50%;
+      font-size:16px;
+      font-weight: 700;
+      border-radius:3px;
+      margin-bottom:24px;
+      text-shadow:0 1px 1px rgba(0,0,0,.2);
+      cursor:pointer;
     }
 
 
@@ -140,24 +186,136 @@ button{
 
     .servers-section{
       margin-top:28px;
+      padding-right:40px;
+      padding-left:40px;
     }
     .servers-title{
-      font-family:"reefbold";
-      font-size:36px;
+      font-family:"plugynCasual";
+      font-size:30px;
       color:white;
       font-weight: 900;
+      padding-bottom:5px;
+      margin-bottom:24px;
+      border-bottom: 1px solid #dfc777;
     }
     .servers{
+      padding-right:30px;
+      padding-left:30px;
+    }
+    .server-item{
+      width:100%;
+      padding-right:15px;
+      padding-left:15px;
+      margin-bottom:28px;
+      border-radius:5px;
+      border:0.5px solid rgb(255,255,255,0.2);
+      background-size:cover;
+      background-position: 50% 20%;
+
+      min-width:270px;
+      box-shadow: 0 6px 10px 0 rgba(0,0,0,.25);
+      
+    }
+
+    
+    .server-content{
+      width:100%;
+    }
+
+    .server-name{
+      font-family: "plugynCasual";
+      font-size:35px;
+      font-weight:700;
+      color:white;
+      
+    }
+    .server-description{
+      font-family:"plugynCasual";
+      font-weight:600;
+      font-size:18px;
+      color:white;
+      background: rgba(0,0,0,.2);
+      border-radius:2px;
+      border-bottom:1px solid #dfc777;
+      border-top:1px solid #dfc777;
+      padding:20px;
+    }
+    .server-price{
+      font-family: "plugynCasual";
+      font-weight: 900;
+      font-size:30px;
+      color:white;
+      padding:2% 5% 2% 5%;
+      
+      
+    }
+    
+    /* Reviews */
+
+    .reviews-container{
       padding-right:20px;
       padding-left:20px;
     }
 
-    .items{
-      width:100%;
-      padding-right:15px;
-      padding-left:15px;
+    .reviews-title{
+      font-family:"plugynCasual";
+      font-size:36px;
+      color:white;
+      font-weight: 900;
+      padding-bottom:5px;
+      margin-bottom:24px;
+      border-bottom: 1px solid #dfc777;
+    }
+    .reviews-text{
+      font-family:"plugynCasual";
+      font-size:22px;
+      margin-bottom:10px;
+      color:white;
+    }
+
+    .review-elite-box{
+      background:rgba(111,111,111,0.05);
+      border-radius:6px;
+      border:0.5px solid rgb(255,255,255,0.3);
+      
+    }
+    .reviews-elite{
+      font-family:"plugynCasual";
+      font-size:26px;
+      color:white;
+      font-weight: 900;
+      margin-top:1px;
+      margin-bottom:10px;
+      padding-top:10px;
+      
+      
+    }
+
+    .stars-container{
+      margin-top:5px;
       margin-bottom:10px;
     }
+    .stars{
+      width:60%;
+    }
+    .rates{
+      font-family:"plugynCasual";
+      font-size:30px;
+      color:#dfc777;
+    }
+    .elite-text{
+      font-family:"plugynCasual";
+      font-size:28px;
+      font-weight: 900;
+      margin-top:5px;
+      padding-bottom:10px;
+
+    }
+    .elite-text a{
+      text-decoration: none;
+      color:#dfc777;
+    }
+
 }
 
 

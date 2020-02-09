@@ -15,16 +15,12 @@ class Header extends React.Component{
                             </div>
                             <div className="col-5">
                                 <div className="row">
-                                    <div className="col-5 header-buttons">
+                                    <div className="col-12 header-buttons">
                                         <button className="button-background">
                                             <span className="menu-button"></span>
                                         </button>
                                     </div>
-                                    <div className="col-5 header-buttons">
-                                        <button className="button-background">
-                                            <span className="profile-button"></span>
-                                        </button>
-                                    </div>
+                                    
                                 </div>
 
                                 
