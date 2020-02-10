@@ -25,7 +25,7 @@ class Content extends React.Component{
                             </a>
                             <a href='#reviews'>
                                 <button className="button-2">
-                                        Check our reviews
+                                    Check our reviews
                                 </button>
                             </a>
                         </div>
@@ -44,6 +44,10 @@ class Content extends React.Component{
                             <div className="row">
                                 <Server image={backgroundAeldra} serverName="Nexus II" price="300kk Yang = 10 €" serverDescription="Grab an advantage on this unique Metin2 experience with entirely new systems and mechanics!"/>
                                 <Server image={backgroundEkstasia} serverName="Evion" price="1.2kkk Yang = 10 €" serverDescription="Get stronger today on the newest Metin2 Private Server available!"/>
+                            </div>
+                            <div className="row">
+                                <Server image={backgroundAeldra} serverName="Lysium" price="300kk Yang = 10 €" serverDescription="Grab an advantage on this unique Metin2 experience with entirely new systems and mechanics!"/>
+                                <Server image={backgroundEkstasia} serverName="Someya" price="1.2kkk Yang = 10 €" serverDescription="Get stronger today on the newest Metin2 Private Server available!"/>
                             </div>
                             
                         </div>

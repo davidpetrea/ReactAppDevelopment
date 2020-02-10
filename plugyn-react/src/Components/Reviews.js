@@ -1,6 +1,8 @@
 import React from "react"
 
 import Stars from "../star_iconv25.png"
+
+
 class Reviews extends React.Component{
     render(){
         return(
@@ -20,8 +22,9 @@ class Reviews extends React.Component{
                         <a href="https://www.elitepvpers.com/forum/metin2-trading/4599199-all-private-servers-450-positive-reviews-yangstore-plugyn-cheap-safe.html" target="_blank"><button className="button-4">Check our thread</button></a>
                     </div>
                 </div>
-                   
+                
             </div>
+            
         )
     }
 }
