@@ -34,7 +34,7 @@ class Content extends React.Component{
                         </div>
                         <div className="container servers">
                             <div className="row">
-                                <Server image={backgroundEkstasia} serverName="Ekstasia" price="2.5kkk Yang = 10 €" serverDescription="Enjoy one of the most popular Private Servers by getting the best equipment out there! "/>
+                                <Server image={backgroundEkstasia} serverName="Ekstasia" price="3.8kkk Yang = 10 €" serverDescription="Enjoy one of the most popular Private Servers by getting the best equipment out there! "/>
                                 <Server image={backgroundCelestial} serverName="Celestial World II" price="50k Lagis = 10 €" serverDescription="Grab an advantage on this unique Metin2 experience with entirely new systems and mechanics!"/>
                             </div>
                             <div  className="row">
