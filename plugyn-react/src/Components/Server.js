@@ -7,8 +7,8 @@ class Server extends React.Component{
             backgroundImage: "url("+this.props.image+"), linear-gradient(180deg, rgba(34, 37, 47, 0.2) 1.61%, rgba(34, 37, 47, 0.95) 99.23%)"
         }
         return(
-            <div className="row">
-                <div className="col-12 col-sm-12 server-item" style={style}>
+            
+                <div className="col-12 col-lg server-item" style={style}>
                     <div className="server-content">
                         <div className="server-name">
                             {this.props.serverName}
@@ -24,7 +24,7 @@ class Server extends React.Component{
                         </div>
                     </div>
                 </div>
-            </div>
+            
         )
     }
     

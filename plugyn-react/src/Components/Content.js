@@ -29,16 +29,23 @@ class Content extends React.Component{
                                 </button>
                             </a>
                         </div>
-                        <div className="servers-section">
+                        <div className="servers-section"  id='servers'>
                             <h2 className="servers-title">Servers We Support</h2>
                         </div>
-                        <div className="container servers" id='servers'>
+                        <div className="container servers">
+                            <div className="row">
+                                <Server image={backgroundEkstasia} serverName="Ekstasia" price="2.5kkk Yang = 10 €" serverDescription="Enjoy one of the most popular Private Servers by getting the best equipment out there! "/>
+                                <Server image={backgroundCelestial} serverName="Celestial World II" price="50k Lagis = 10 €" serverDescription="Grab an advantage on this unique Metin2 experience with entirely new systems and mechanics!"/>
+                            </div>
+                            <div  className="row">
+                                <Server image={backgroundMenor} serverName="Age of Menor" price="300kk Yang = 10 €" serverDescription="Grab an advantage on this unique Metin2 experience with entirely new systems and mechanics!"/>
+                                <Server image={backgroundAeldra} serverName="Nayah II" price="50kkk Yang = 10 €" serverDescription="Get stronger today on the newest Metin2 Private Server available!"/>
+                            </div>
+                            <div className="row">
+                                <Server image={backgroundAeldra} serverName="Nexus II" price="300kk Yang = 10 €" serverDescription="Grab an advantage on this unique Metin2 experience with entirely new systems and mechanics!"/>
+                                <Server image={backgroundEkstasia} serverName="Evion" price="1.2kkk Yang = 10 €" serverDescription="Get stronger today on the newest Metin2 Private Server available!"/>
+                            </div>
                             
-                            <Server image={backgroundEkstasia} serverName="Ekstasia" price="2.5kkk Yang = 10 €" serverDescription="Enjoy one of the most popular Private Servers by getting the best equipment out there! "/>
-                            <Server image={backgroundCelestial} serverName="Celestial World II" price="50k Lagis = 10 €" serverDescription="Grab an advantage on this unique Metin2 experience with entirely new systems and mechanics!"/>
-                            <Server image={backgroundMenor} serverName="Age of Menor" price="300kk Yang = 10 €" serverDescription="Grab an advantage on this unique Metin2 experience with entirely new systems and mechanics!"/>
-                            <Server image={backgroundAeldra} serverName="Nayah II" price="50kkk Yang = 10 €" serverDescription="Get stronger today on the newest Metin2 Private Server available!"/>
-                            <Server image={backgroundEkstasia} serverName="Assendra" price="50kkk Yang = 10 €" serverDescription="Get stronger today on the newest Metin2 Private Server available!"/>
                         </div>
                     </div>
                     
