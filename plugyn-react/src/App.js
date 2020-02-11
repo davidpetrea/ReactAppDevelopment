@@ -7,6 +7,7 @@ import Header from "./Components/Header"
 import Home from "./Components/Home"
 import HowItWorks from "./Components/HowItWorks"
 import About from "./Components/About"
+import FAQ from "./Components/FAQ"
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
                     <Route path="/" exact component={Home}/>
                     <Route path="/howitworks" component={HowItWorks}/>
                     <Route path="/about" component={About}/>
+                    <Route path="/faq" component={FAQ}/>
                 </Switch>
               </CSSTransition>
            </TransitionGroup> 

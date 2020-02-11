@@ -34,14 +34,22 @@ class AboutContent extends React.Component{
 
                             
 
-                            <div className="col-lg-1 align-self-end">
-                            plugyn
+                            <div className="col-lg-4 signature align-self-end">
+                                        plugyn
                             </div>    
 
-                            <div className="col-lg-12 contact-button">
+                            <div className="col-lg-6 contact-button">
                                 <button className="button-5">
                                     CONTACT US
                                 </button>
+                        
+                            </div>
+                            <div className="col-lg-6 contact-button">
+                                 
+                                    <button className="button-5">
+                                        BACK TO STORE
+                                    </button>
+                        
                             </div>
 
                             
