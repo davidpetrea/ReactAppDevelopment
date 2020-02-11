@@ -146,6 +146,17 @@ button{
       color:white;
       text-transform:uppercase;
     }
+    .showcase-text-main-2{
+      font-family:"plugynCasual";
+      font-size:24px;
+      line-height:1;
+      margin-bottom:20px;
+      margin-left:5px;
+      margin-right:5px;
+      color:white;
+      text-transform:uppercase;
+    }
+    
 
     .button-1{
       font-family:"plugynCasual";
@@ -219,6 +230,27 @@ button{
     }
 
     .button-4:hover{
+      background-color:rgba(241,190,68,1);
+      transition:background-color 0.4s ease-out;
+      
+    }
+
+    .button-5{
+      font-family:"plugynCasual";
+      height:80%;
+      text-transform: uppercase;
+      color:white;
+      background-color:#b8994a;
+      border:1px solid #b8994a;
+      width:20%;
+      font-size:16px;
+      font-weight: 700;
+      border-radius:3px;
+      margin-bottom:24px;
+      text-shadow:0 1px 1px rgba(0,0,0,.2);
+      cursor:pointer;
+    }
+    .button-5:hover{
       background-color:rgba(241,190,68,1);
       transition:background-color 0.4s ease-out;
       
@@ -387,7 +419,7 @@ button{
     font-family:"plugynCasual";
     font-size:25px;
     color:#dfc777;
-    font-weight: 500;
+    font-weight: 550;
     margin-top:5px;
 
     
@@ -396,18 +428,14 @@ button{
     font-family:"plugynCasual";
     font-size:17px;
     color:white;
-    margin-left:8px;
-    margin-right:8px;
-
-
-    
+ 
   }
 
 
   /* Footer */
 
   .footer{
-    margin-top:35px;
+    margin-top:100px;
     min-width: 100%;
     max-width: 100%;
     background-color:rgb(0,0,0,0.4);
@@ -474,6 +502,77 @@ button{
     font-size: 13px;
     color:rgb(141, 141, 141);
     font-weight: 700;
+  }
+
+/* how it works */
+
+  .howitworks{
+    background-color:rgba(10,10,10,0.4);
+    border-radius:10px;
+    border:0.5px solid rgb(141, 141, 141,0.5);
+    padding:35px 50px 35px 50px;
+  }
+
+  .howitworks-text{
+    font-family:"plugynCasual";
+    font-size: 18px;
+    color:rgb(200, 200, 200);
+    font-weight: 700;
+    
+  }
+
+  .howitworks-header{
+    font-family:"plugynCasual";
+    font-size: 35px;
+    color:rgb(240, 240, 240);
+    font-weight: 700;
+    margin-bottom:10px;
+    
+  }
+
+  .howitworks-header-2{
+    font-family:"plugynCasual";
+    font-size: 24px;
+    color:rgb(240, 240, 240);
+    font-weight: 500;
+    margin-bottom:10px;
+    
+  }
+  .howitworks-header-3{
+    margin-top:30px;
+    font-family:"plugynCasual";
+    font-size: 25px;
+    color:rgb(240, 240, 240);
+    font-weight: 500;
+    border-bottom:1px solid #dfc777;
+    
+    
+    
+  }
+
+  .how-paragraph{
+    margin-top:20px;
+  }
+
+  .payment-methods{
+    margin-top:22px;
+    margin-left:auto;
+    margin-right:auto;
+    
+  }
+
+  .payment-method-logo{
+    max-width: 100px;
+    
+  }
+  .payment-method-logo-psc{
+    max-width: 200px;
+    
+    
+  }
+
+  .contact-button{
+    margin-top:25px;
   }
 
 
@@ -617,4 +716,6 @@ button{
     font-size:40px;
   }
 }
+
+
       

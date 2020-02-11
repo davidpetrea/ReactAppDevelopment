@@ -1,6 +1,8 @@
 import React from 'react'
 import logo from '../Logopng.png'
 
+import {Link} from 'react-router-dom'
+
 class Header extends React.Component{
     render(){
         return(
@@ -20,17 +22,17 @@ class Header extends React.Component{
                                     </button>
                                 </div>
                             </div>
+                            
                             <div className="col-md align-self-center nav-item">
-                            <span className="nav-item-text"><a href="http://www.google.com" target="_blank">HOW IT WORKS</a></span>
-
+                                <Link to='/howitworks' style={{textDecoration: 'none'}}>
+                                    <span className="nav-item-text"><a href="http://www.google.com" target="_blank">HOW IT WORKS</a></span>
+                                </Link>
                             </div>
+                            
                             <div className="col-md align-self-center nav-item">
                                 <span className="nav-item-text"><a href="http://www.google.com" target="_blank">ABOUT US</a></span>
                             </div>
-                            <div className="col-md align-self-center nav-item">
-                            <span className="nav-item-text"><a href="http://www.google.com" target="_blank">TERMS & RULES</a></span>
-
-                            </div>
+                        
                             <div className="col-md align-self-center nav-item">
                             <span className="nav-item-text"><a href="http://www.google.com" target="_blank">CONTACT US</a></span>
                             </div>
