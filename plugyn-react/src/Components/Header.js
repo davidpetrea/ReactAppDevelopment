@@ -30,7 +30,9 @@ class Header extends React.Component{
                             </div>
                             
                             <div className="col-md align-self-center nav-item">
-                                <span className="nav-item-text"><a href="http://www.google.com" target="_blank">ABOUT US</a></span>
+                                <Link to='/about' style={{textDecoration: 'none'}}>
+                                    <span className="nav-item-text"><a href="http://www.google.com" target="_blank">ABOUT US</a></span>
+                                </Link>
                             </div>
                         
                             <div className="col-md align-self-center nav-item">
@@ -38,6 +40,9 @@ class Header extends React.Component{
                             </div>
                             <div className="col-md align-self-center nav-item">
                             <span className="nav-item-text"><a href="http://www.google.com" target="_blank">BECOME A SUPPLIER</a></span>
+                            </div>
+                            <div className="col-md align-self-center nav-item">
+                            <span className="nav-item-text"><a href="http://www.google.com" target="_blank">FAQ</a></span>
                             </div>
 
 

@@ -1,10 +1,6 @@
 import React from 'react';
 
-
-import Header from "./Header"
-import Content from "./Content"
-import Reviews from "./Reviews"
-
+import AboutContent from "./AboutContent"
 import Footer from "./Footer"
 
 class About extends React.Component{
@@ -12,8 +8,8 @@ class About extends React.Component{
         return (
             <div>
                
-                <Content />
-                <Reviews />
+                <AboutContent />
+            
                 
                 <Footer/>
             </div>

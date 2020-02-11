@@ -577,7 +577,9 @@ button{
 
 
 
-
+.signature{
+  margin-right:0px;
+}
 /* Background */
 
 .background__image {
