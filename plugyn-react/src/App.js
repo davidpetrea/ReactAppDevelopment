@@ -10,13 +10,14 @@ import About from "./Components/About"
 import FAQ from "./Components/FAQ"
 import ScrollToTop from "./Components/ScrollToTop"
 
+
 function App() {
   return (
     <Router>
       <ScrollToTop>
         <div>
           <Header />
-
+         
           <Route render={({location}) => (
             <TransitionGroup>
               <CSSTransition key={location.key} timeout={300} className="fade">

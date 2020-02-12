@@ -3,17 +3,19 @@ import logo from '../Logopng.png'
 
 import {Link} from 'react-router-dom'
 import ContactModal from './ContactModal'
+import MobileMenuModal from './MobileMenuModal'
 
 class Header extends React.Component{
     constructor(props){
         super(props);
-        this.state={addModalShow: false}
+        this.state={addModalShow: false,addMenuModalShow:false}
     }
     
     
     render(){
 
         let addModalClose=() => this.setState({addModalShow:false});
+        let addMenuModalClose=() => this.setState({addMenuModalShow:false});
 
 
         return(
@@ -28,9 +30,11 @@ class Header extends React.Component{
                             </div>
                             <div className="col-1 offset-2 offset-sm-3 offset-md-6 col-lg-2 align-self-center mobile-header-button">
                                 <div className="header-buttons">
-                                    <button className="button-background">
-                                        <span className="menu-button"></span>
-                                    </button>
+
+                                        <button className="button-background" onClick={()=>this.setState({addMenuModalShow:true})}>
+                                            <span className="menu-button"></span>
+                                        </button>
+
                                 </div>
                             </div>
                             
@@ -66,9 +70,15 @@ class Header extends React.Component{
                     </div>
                 </header>
                 <ContactModal
-                            show={this.state.addModalShow}
-                            onHide={addModalClose}
-                            />
+                    show={this.state.addModalShow}
+                    onHide={addModalClose}
+                 />
+
+                 <MobileMenuModal
+                    show={this.state.addMenuModalShow}
+                    onHide={addMenuModalClose}
+                 />
+
             </div>
         )
     }

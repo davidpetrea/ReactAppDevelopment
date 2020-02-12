@@ -187,7 +187,7 @@ button{
       font-family:"plugynCasual";
       height:44px;
       text-transform: uppercase;
-      color:white;
+      color:black;
       background-color:#b8994a;
       width:85%;
       font-size:20px;
@@ -264,12 +264,12 @@ button{
       font-family:"plugynCasual";
       height:80%;
       text-transform: uppercase;
-      color:white;
-      background-color:#b8994a;
-      border:1px solid #b8994a;
+      color:rgba(0,0,0,.85);
+      background-color:#d3af4d;
+      border:.5px solid rgba(255,255,255,.5);
       width:40%;
       font-size:16px;
-      font-weight: 700;
+      font-weight: 900;
       border-radius:3px;
       margin-bottom:24px;
       text-shadow:0 1px 1px rgba(0,0,0,.2);
@@ -469,7 +469,6 @@ button{
     padding-right:100px;
     padding-top:30px;
     padding-bottom:20px;
-    
     border-top:1px solid #dfc777;
   }
 
@@ -597,6 +596,9 @@ button{
 
   .contact-button{
     margin-top:25px;
+    
+    
+   
   }
 
 
@@ -743,6 +745,7 @@ button{
 
 .modal-close-button{
   font-family:"plugynCasual";
+  font-weight: 700;
   background-color:rgba(0,0,0,.65);
   border:0.5px solid rgba(255,255,255,.4);
 }
@@ -757,7 +760,66 @@ button{
 
 }
 
+/* MobileMenu */
 
+
+  .modal-90w{
+    width:100%
+    !important;
+    
+    
+  }
+
+  .menu-info-title{
+    margin-top:10px;
+  font-family:"plugynCasual";
+  color:rgba(255,255,255,.4);
+  font-weight:700;
+  font-size:19px;
+  }
+
+  .info-modal-button{
+    font-family:"plugynCasual";
+    color:#dfc777;
+    font-weight:700;
+    font-size:14px;
+    width:100%;
+    background-color:rgba(20, 18, 18, 0.65);
+    border:0.5px solid #dfc777;
+  }
+  .info-modal-button:hover{
+    background-color:rgba(61, 55, 55, 0.65);
+    border:0.5px solid #dfc777;
+  }
+
+  .modal-footer{
+    width:100%;
+    align-self:center;
+    
+  }
+
+  .modal-button-60w{
+    width:60%;
+  }
+
+  .store-button{
+    width:100%;
+    background-color:#c7a63d;
+    font-family:"plugynCasual";
+    color:black;
+    font-weight:700;
+    font-size:18px;
+    border:1px solid rgba(0,0,0,0.7);
+
+  }
+
+  
+  .store-button:hover{
+    background-color:#eed06e;
+    border:1px solid rgba(0,0,0,0.4);
+    color:black;
+
+  }
 
 
 /* Background */
@@ -865,12 +927,31 @@ button{
   .nav-item{
     display:none;
   }
+  .footer{
+    padding-right:10px;
+    padding-left:10px;
+  }
+  .footer-info-list{
+    margin-top:7px;
+  }
+  .footer-info-header{
+    margin-top:10px;
+  }
+  .footer-register-text{
+    margin-top:25px;
+  }
+
+  
 
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
 
     .mobile-header-button{
+      display:none;
+    }
+
+    .mobile-menu{
       display:none;
     }
 

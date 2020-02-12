@@ -77,13 +77,13 @@ class HowContent extends React.Component{
                             4)	At this moment, we only accept offline paysafecards bought in Germany. 
                             </div>
                             
-                            <div className="col-lg-6 contact-button">
+                            <div className="col-lg-6 col-12 contact-button">
                                 <button className="button-5" onClick={()=>this.setState({addModalShow:true})}>
                                     CONTACT US
                                 </button>
                         
                             </div>
-                            <div className="col-lg-6 contact-button">
+                            <div className="col-lg-6 col-12 contact-button">
                                 <Link to="/">
                                     <button className="button-5">
                                         BACK TO STORE
