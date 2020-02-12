@@ -1,9 +1,17 @@
 import React from "react"
 
-
+import {Link} from 'react-router-dom'
+import ContactModal from './ContactModal'
 
 class AboutContent extends React.Component{
+    constructor(props){
+        super(props);
+        this.state={addModalShow: false}
+    }
+    
+    
     render() {
+        let addModalClose=() => this.setState({addModalShow:false});
         return(
             <main>
                 <div className="container">
@@ -39,21 +47,24 @@ class AboutContent extends React.Component{
                             </div>    
 
                             <div className="col-lg-6 contact-button">
-                                <button className="button-5">
+                                <button className="button-5"  onClick={()=>this.setState({addModalShow:true})}>
                                     CONTACT US
                                 </button>
                         
                             </div>
                             <div className="col-lg-6 contact-button">
-                                 
+                                 <Link to="/">
                                     <button className="button-5">
                                         BACK TO STORE
                                     </button>
-                        
+                                </Link>
                             </div>
 
                             
-                            
+                            <ContactModal
+                            show={this.state.addModalShow}
+                            onHide={addModalClose}
+                            />
                            
                             
 

@@ -64,7 +64,12 @@ button{
 
     .logo-image{
       max-height:100px;
+      transition: max-height 0.2s ease-in-out;
       
+    }
+    .logo-image:hover{
+      max-height:105px; 
+      transition: max-height 0.2s ease-in-out;
     }
     
     .header-buttons{
@@ -115,8 +120,28 @@ button{
       transition :font-size 0.2s ease-out;
       
     }
+
     
+
+    .nav-contact-button{
+      color:white;
+      font-size:18px;
+      font-family:"plugynCasual";
+      font-weight: 900;
+      border:0.5px solid #dfc777;
+      border-radius:5px;
+      padding:6px 10px 6px 10px;
+      text-shadow:0 1px 1px rgba(0,0,0,.2);
+      cursor:pointer;
+      transition: background-color 0.3s ease-in-out;
+    }
     
+    .nav-contact-button:hover{
+
+      background-color:rgba(0,0,0,.65);
+      transition:background-color 0.3s ease-in-out;
+
+    }
 
     /* SHOWCASE */
 
@@ -460,9 +485,7 @@ button{
     margin:0 auto;
     
   }
-  .footer-info-list{
-    
-  }
+  
   .footer-info-list a{
     text-decoration: none;
     font-family:"plugynCasual";
@@ -600,6 +623,139 @@ button{
   padding-bottom:15px;
 }
 
+
+/* MODALS */
+
+
+.modal-header{
+  font-family:"plugynCasual";
+  color:rgba(255,255,255,.8);
+  font-weight:700;
+  font-size:24px;
+  border:none;
+  margin-left:auto;
+  margin-right:auto;
+  
+  
+ 
+}
+.modal-buttons{
+  margin-top:7px;
+}
+
+.modal-header-container{
+  background-color: rgba(0,0,0,.85);
+  width:100%;
+  padding-top:0px;
+  padding-bottom:0px;
+  border-top:0.5px solid rgba(255,255,255,.2);
+  border-left:0.5px solid rgba(255,255,255,.2);
+  border-right:0.5px solid rgba(255,255,255,.2);
+  border-bottom:0.5px solid #dfc777;
+  border-radius:0px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.modal-body-container{
+  background-color: rgba(0,0,0,.85);
+  border-bottom: 0.5px solid #dfc777;
+  border-left:0.5px solid rgba(255,255,255,.2);
+  border-right:0.5px solid rgba(255,255,255,.2);
+}
+.modal-footer-container{
+  background-color: rgba(0,0,0,.85);
+  border-top:none;
+  border-left:0.5px solid rgba(255,255,255,.2);
+  border-right:0.5px solid rgba(255,255,255,.2);
+  border-bottom:0.5px solid rgba(255,255,255,.2);
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+
+}
+
+
+
+.discord-modal-button{
+  font-family:"plugynCasual";
+  background-color: #7289da;
+  font-weight:700;
+  font-size:14px;
+  border:0.5px solid #7289da;
+  width:60%;
+  padding:10px;
+
+}
+.discord-modal-button:hover{
+  
+  border:0.5px solid rgba(255,255,255,0.3);
+  background-color: #9aa9df;
+  
+
+}
+.skype-modal-button{
+  font-family:"plugynCasual";
+  background-color:  #00aff0;
+  font-weight:700;
+  font-size:14px;
+  border:0.5px solid  #00aff0;
+  width:60%;
+  padding:10px;
+
+}
+.skype-modal-button:hover{
+  background-color:  #40cbfd;
+  border:0.5px solid  #40cbfd;
+}
+
+
+.epvp-modal-button{
+  font-family:"plugynCasual";
+  background-color: #13b24d; 
+  font-weight:700;
+  font-size:14px;
+  border:0.5px solid #13b24d; 
+  width:60%;
+  padding:10px;
+  
+
+}
+.epvp-modal-button:hover{
+  background-color: #35da71; 
+  border:0.5px solid #35da71; 
+}
+
+
+.modal-text{
+  font-family:"plugynCasual";
+  font-size:17px;
+  color:rgba(255,255,255,0.7);
+  margin-top:10px;
+  font-weight: 700;
+}
+
+.modal-footer-text{
+  font-family:"plugynCasual";
+  font-size:16px;
+  color:rgba(255,255,255,0.7);
+ 
+}
+
+.modal-close-button{
+  font-family:"plugynCasual";
+  background-color:rgba(0,0,0,.65);
+  border:0.5px solid rgba(255,255,255,.4);
+}
+.modal-close-button:hover{
+  background-color:rgba(76, 76, 76, 0.65);
+  border:0.5px solid rgba(255,255,255,.4);
+}
+
+.modal-close-button-2{
+  margin-right:0px;
+
+
+}
 
 
 

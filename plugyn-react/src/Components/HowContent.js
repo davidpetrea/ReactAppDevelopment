@@ -3,10 +3,19 @@ import React from "react"
 import PaypalLogo from "../ppLogo.png"
 import SkrillLogo from "../skrillLogo.png"
 import PSCLogo from "../pscLogo.jpg"
+import {Link} from 'react-router-dom'
+import ContactModal from './ContactModal'
 
 
 class HowContent extends React.Component{
+    constructor(props){
+        super(props);
+        this.state={addModalShow: false}
+    }
+   
+   
     render() {
+        let addModalClose=() => this.setState({addModalShow:false});
         return(
             <main>
                 <div className="container">
@@ -68,13 +77,24 @@ class HowContent extends React.Component{
                             4)	At this moment, we only accept offline paysafecards bought in Germany. 
                             </div>
                             
-                            <div className="col-lg-12 contact-button">
-                                <button className="button-5">
+                            <div className="col-lg-6 contact-button">
+                                <button className="button-5" onClick={()=>this.setState({addModalShow:true})}>
                                     CONTACT US
                                 </button>
+                        
+                            </div>
+                            <div className="col-lg-6 contact-button">
+                                <Link to="/">
+                                    <button className="button-5">
+                                        BACK TO STORE
+                                    </button>
+                                </Link>
                             </div>
 
-                            
+                            <ContactModal
+                            show={this.state.addModalShow}
+                            onHide={addModalClose}
+                            />
                             
                            
                             

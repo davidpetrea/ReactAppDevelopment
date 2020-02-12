@@ -8,10 +8,12 @@ import Home from "./Components/Home"
 import HowItWorks from "./Components/HowItWorks"
 import About from "./Components/About"
 import FAQ from "./Components/FAQ"
+import ScrollToTop from "./Components/ScrollToTop"
 
 function App() {
   return (
     <Router>
+      <ScrollToTop>
         <div>
           <Header />
 
@@ -30,6 +32,7 @@ function App() {
 
           
         </div>
+      </ScrollToTop>
     </Router>
       
    

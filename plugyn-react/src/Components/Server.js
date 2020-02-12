@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom'
 
 class Server extends React.Component{
     render(){
@@ -20,7 +20,9 @@ class Server extends React.Component{
                             {this.props.price}
                         </div>
                         <div>
-                            <button className="button-3">BUY NOW</button>
+                            <Link to="/howitworks">
+                                <button className="button-3">BUY NOW</button>
+                            </Link>
                         </div>
                     </div>
                 </div>

@@ -2,18 +2,29 @@ import React from 'react'
 import logo from '../Logopng.png'
 
 import {Link} from 'react-router-dom'
+import ContactModal from './ContactModal'
 
 class Header extends React.Component{
+    constructor(props){
+        super(props);
+        this.state={addModalShow: false}
+    }
+    
+    
     render(){
+
+        let addModalClose=() => this.setState({addModalShow:false});
+
+
         return(
             <div>
                 <header>
                     <div className="container">
                         <div className="row ">
                             <div className="col-7 col-sm-6 col-md-4 col-lg-3">
-                                <a className="logo" href="/">
+                                <Link to="/" className="logo" >
                                     <img className="logo-image" src={logo} alt="Plugyn Store"/>
-                                </a>
+                                </Link>
                             </div>
                             <div className="col-1 offset-2 offset-sm-3 offset-md-6 col-lg-2 align-self-center mobile-header-button">
                                 <div className="header-buttons">
@@ -25,19 +36,17 @@ class Header extends React.Component{
                             
                             <div className="col-md align-self-center nav-item">
                                 <Link to='/howitworks' style={{textDecoration: 'none'}}>
-                                    <span className="nav-item-text"><a href="http://www.google.com" target="_blank">HOW IT WORKS</a></span>
+                                    <span className="nav-item-text"><a href="">HOW IT WORKS</a></span>
                                 </Link>
                             </div>
                             
                             <div className="col-md align-self-center nav-item">
                                 <Link to='/about' style={{textDecoration: 'none'}}>
-                                    <span className="nav-item-text"><a href="http://www.google.com" target="_blank">ABOUT US</a></span>
+                                    <span className="nav-item-text"><a href="" target="_blank">ABOUT US</a></span>
                                 </Link>
                             </div>
                         
-                            <div className="col-md align-self-center nav-item">
-                                <span className="nav-item-text"><a href="http://www.google.com" target="_blank">CONTACT US</a></span>
-                            </div>
+                            
                             <div className="col-md align-self-center nav-item">
                                 <span className="nav-item-text"><a href="http://www.google.com" target="_blank">BECOME A SUPPLIER</a></span>
                             </div>
@@ -46,11 +55,20 @@ class Header extends React.Component{
                                     <span className="nav-item-text"><a href="http://www.google.com" target="_blank">FAQ</a></span>
                                 </Link>
                             </div>
+                            <div className="col-md align-self-center nav-item">
+                                <button className="nav-contact-button" onClick={()=>this.setState({addModalShow:true})}>CONTACT US</button>
+                            </div>
+
+                            
 
 
                         </div>
                     </div>
                 </header>
+                <ContactModal
+                            show={this.state.addModalShow}
+                            onHide={addModalClose}
+                            />
             </div>
         )
     }
