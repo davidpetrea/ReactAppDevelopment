@@ -18,10 +18,9 @@ class HowContent extends React.Component{
         let addModalClose=() => this.setState({addModalShow:false});
         return(
             <main>
+                
                 <div className="container">
-                    <div className="background__image background__image--homepage">
-
-                    </div>
+                    
                     <div className="showcase-text">
                         <div className="showcase-text-title">TRADING PROCESS</div>
                         <div className="showcase-text-main-2">Buying yang on your favourite Metin2 Server was never easier.</div>

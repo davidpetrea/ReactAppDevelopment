@@ -895,6 +895,30 @@ button{
       }
  
 
+     
+    .fade-enter {
+        opacity: 0.01;
+    }
+    
+    .fade-enter.fade-enter-active {
+        opacity: 1;
+        transition: opacity 300ms ease-in-out;
+    }
+    
+    .fade-exit {
+        opacity: 1;
+    }
+    
+    .fade-exit.fade-exit-active {
+        opacity: 0.0001;
+        transition: opacity 300ms ease-in-out;
+    }
+
+ 
+
+
+
+
 @media only screen and (min-width: 670px){
 
   .reviews-text{

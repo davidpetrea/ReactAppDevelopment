@@ -11,9 +11,7 @@ class Content extends React.Component{
         return(
             <main>
                 <div>
-                    <div className="background__image background__image--homepage">
-
-                    </div>
+                    
                     <div className="showcase-text">
                         <div className="showcase-text-title">Best Metin2 Deals on the Market</div>
                         <div className="showcase-text-main">Get yang on your favourite Metin2 server and become the strongest today!</div>
@@ -46,8 +44,8 @@ class Content extends React.Component{
                                 <Server image={backgroundEkstasia} serverName="Evion" price="1.2kkk Yang = 10 €" serverDescription="Get stronger today on the newest Metin2 Private Server available!"/>
                             </div>
                             <div className="row">
-                                <Server image={backgroundAeldra} serverName="Lysium" price="300kk Yang = 10 €" serverDescription="Grab an advantage on this unique Metin2 experience with entirely new systems and mechanics!"/>
-                                <Server image={backgroundEkstasia} serverName="Someya" price="1.2kkk Yang = 10 €" serverDescription="Get stronger today on the newest Metin2 Private Server available!"/>
+                                <Server image={backgroundMenor} serverName="Lysium" price="300kk Yang = 10 €" serverDescription="Grab an advantage on this unique Metin2 experience with entirely new systems and mechanics!"/>
+                                <Server image={backgroundCelestial} serverName="Someya" price="1.2kkk Yang = 10 €" serverDescription="Get stronger today on the newest Metin2 Private Server available!"/>
                             </div>
                             
                         </div>

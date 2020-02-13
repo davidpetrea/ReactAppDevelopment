@@ -78,7 +78,9 @@ class Header extends React.Component{
                     show={this.state.addMenuModalShow}
                     onHide={addMenuModalClose}
                  />
+                <div className="background__image background__image--homepage">
 
+                </div>
             </div>
         )
     }
