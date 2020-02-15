@@ -1,8 +1,8 @@
 import React from 'react'
 import { Modal, Button, Row, Col } from 'react-bootstrap'
 
-import DiscordLogo from "../discLogo.png"
-import SkypeLogo from "../skypeLogo.png"
+import DiscordLogo from "../discLogoBright.png"
+import SkypeLogo from "../skypeLogoBright.png"
 
 
 class ContactModal extends React.Component {
