@@ -10,6 +10,7 @@ import HowItWorks from "./Components/HowItWorks"
 import About from "./Components/About"
 import FAQ from "./Components/FAQ"
 import ScrollToTop from "./Components/ScrollToTop"
+import Footer from "./Components/Footer"
 
 
 function App() {
@@ -19,28 +20,29 @@ function App() {
         <ScrollToTop>
           <div>
           <Header />
-            
-            <Route render={({location}) => (
-              <TransitionGroup>
-                <CSSTransition 
-                  key={location.key} 
-                  timeout={300} 
-                  classNames={'fade'}
-                  
-                  >
-                  
-                    <Switch location={location}>
-                        <Route path="/" exact component={Home}/>
-                        <Route path="/howitworks" exact component={HowItWorks}/>
-                        <Route path="/about" exact component={About}/>
-                        <Route path="/faq" exact component={FAQ}/>
-                    </Switch>
-                  
-                </CSSTransition>
-            </TransitionGroup> 
-            )} />
+              
+              <Route render={({location}) => (
+                <TransitionGroup>
+                  <CSSTransition 
+                    key={location.key} 
+                    timeout={500} 
+                    appear={true}
+                    classNames={'fade'}
+                    
+                    >
+                      
+                      <Switch location={location}>
+                          <Route path="/" exact component={Home}/>
+                          <Route path="/howitworks"  component={HowItWorks}/>
+                          <Route path="/about"  component={About}/>
+                          <Route path="/faq"  component={FAQ}/>
+                      </Switch>
+                    
+                  </CSSTransition>
+              </TransitionGroup> 
+              )} />
 
-            
+            <Footer/>  
           </div>
         </ScrollToTop>
     </Router>

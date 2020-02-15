@@ -52,11 +52,11 @@ class Header extends React.Component{
                         
                             
                             <div className="col-md align-self-center nav-item">
-                                <span className="nav-item-text"><a href="http://www.google.com" target="_blank">BECOME A SUPPLIER</a></span>
+                                <span className="nav-item-text"><a href="" target="_blank">BECOME A SUPPLIER</a></span>
                             </div>
                             <div className="col-md align-self-center nav-item">
                                 <Link to='/faq' style={{textDecoration: 'none'}}>
-                                    <span className="nav-item-text"><a href="http://www.google.com" target="_blank">FAQ</a></span>
+                                    <span className="nav-item-text"><a href="" target="_blank">FAQ</a></span>
                                 </Link>
                             </div>
                             <div className="col-md align-self-center nav-item">

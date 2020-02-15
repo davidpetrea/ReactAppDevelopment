@@ -111,13 +111,13 @@ button{
       font-family:"plugynCasual";
       font-weight: 900;
       line-height:40px;
-      transition:font-size 0.2s ease-out;
+      transition:font-size 0.2s ease-in-out;
     }
 
     .nav-item-text a:hover{
       font-size:22px;
       border-bottom:.5px solid #dfc777;
-      transition :font-size 0.2s ease-out;
+      transition :font-size 0.2s ease-in-out;
       
     }
 
@@ -896,22 +896,29 @@ button{
  
 
      
-    .fade-enter {
-        opacity: 0.01;
+    .fade-appear {
+        opacity: 0;
     }
     
-    .fade-enter.fade-enter-active {
+    .fade-appear.fade-appear-active {
         opacity: 1;
-        transition: opacity 300ms ease-in-out;
+        transition: opacity 500ms linear;
     }
     
+    .fade
+
+
     .fade-exit {
         opacity: 1;
     }
     
     .fade-exit.fade-exit-active {
-        opacity: 0.0001;
-        transition: opacity 300ms ease-in-out;
+        opacity: 0;
+        transition: opacity 500ms linear;
+    }
+
+    .fade-exit-done{
+      opacity:0;
     }
 
  

@@ -17,7 +17,7 @@ class HowContent extends React.Component{
     render() {
         let addModalClose=() => this.setState({addModalShow:false});
         return(
-            <main>
+            
                 
                 <div className="container">
                     
@@ -102,7 +102,7 @@ class HowContent extends React.Component{
                     </div>
                     
                 </div>
-            </main>
+            
         )
     }
 }
