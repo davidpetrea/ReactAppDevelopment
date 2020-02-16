@@ -8,6 +8,7 @@ import Header from "./Components/Header"
 import Home from "./Components/Home"
 import HowItWorks from "./Components/HowContent"
 import About from "./Components/AboutContent"
+import Suppliers from "./Components/SuppliersContent"
 import FAQ from "./Components/FAQContent"
 import ScrollToTop from "./Components/ScrollToTop"
 import Footer from "./Components/Footer"
@@ -40,6 +41,7 @@ function App() {
                           <Route path="/howitworks"  component={HowItWorks}/>
                           <Route path="/about"  component={About}/>
                           <Route path="/faq"  component={FAQ}/>
+                          <Route path="/suppliers"  component={Suppliers}/>
                       </Switch>
                     
                   </CSSTransition>

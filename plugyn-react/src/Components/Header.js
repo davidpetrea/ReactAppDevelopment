@@ -52,7 +52,7 @@ class Header extends React.Component{
                         
                             
                             <div className="col-md align-self-center nav-item">
-                                <Link to='/howitworks' style={{textDecoration:'none'}}>
+                                <Link to='/suppliers' style={{textDecoration:'none'}}>
                                     <span className="nav-item-text"><a href="">BECOME A SUPPLIER</a></span>
                                 </Link>
                             </div>

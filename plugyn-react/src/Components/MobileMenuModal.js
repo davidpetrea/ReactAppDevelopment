@@ -64,7 +64,7 @@ class ContactModal extends React.Component {
                             </Link>
                         </Row>
                         <Row className="justify-content-center modal-buttons">
-                            <Link to="/about"  className="modal-button-60w">
+                            <Link to="/suppliers"  className="modal-button-60w">
                                         <Button onClick={this.props.onHide} className="info-modal-button">
                                             
                                             BECOME A SUPPLIER

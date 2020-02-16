@@ -853,6 +853,29 @@ a {
   }
 
 
+  /* Suppliers form */
+
+ 
+
+
+  .supplier-form-container{
+    margin-top:50px;
+    margin-left:auto;
+    margin-right:auto;
+    width:80%;
+  }
+
+  .submit-button{
+    margin-top:30px;
+    margin-bottom:20px;
+    background-color:transparent;
+    width:30%;
+  }
+
+  .submit-button:hover{
+    background-color:transparent;
+  }
+
 /* Background */
 
 .background__image {
