@@ -84,7 +84,7 @@ class ContactModal extends React.Component {
                         </Row>
                         <Row className="justify-content-center modal-buttons">
                             <div className="modal-button-60w">
-                                <Button className="info-modal-button" href="http://google.com">
+                                <Button className="info-modal-button" href="">
                                     
                                 <img src={DiscordLogo} className="footer-contact-logo"></img>
                                     PlugynStore#2310

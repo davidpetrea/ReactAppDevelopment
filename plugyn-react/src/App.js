@@ -15,18 +15,22 @@ import Footer from "./Components/Footer"
 
 function App() {
   return (
-    <Router>
-      
-        <ScrollToTop>
-          <div>
-          <Header />
+
+    
+        <Router>
+        
+          <div className="app">
+          <Header/>
+            <ScrollToTop>
+              <div>
+                
               
-              <Route render={({location}) => (
-                <TransitionGroup>
+                <Route render={({location}) => (
+                 <TransitionGroup>
                   <CSSTransition 
                     key={location.key} 
                     timeout={500} 
-                    appear={true}
+                    
                     classNames={'fade'}
                     
                     >
@@ -39,13 +43,16 @@ function App() {
                       </Switch>
                     
                   </CSSTransition>
-              </TransitionGroup> 
+                </TransitionGroup> 
               )} />
 
             <Footer/>  
           </div>
         </ScrollToTop>
+      </div>
     </Router>
+    
+      
       
    
   );
