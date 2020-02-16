@@ -6,9 +6,9 @@ import {CSSTransition, TransitionGroup} from 'react-transition-group'
 
 import Header from "./Components/Header"
 import Home from "./Components/Home"
-import HowItWorks from "./Components/HowItWorks"
-import About from "./Components/About"
-import FAQ from "./Components/FAQ"
+import HowItWorks from "./Components/HowContent"
+import About from "./Components/AboutContent"
+import FAQ from "./Components/FAQContent"
 import ScrollToTop from "./Components/ScrollToTop"
 import Footer from "./Components/Footer"
 
@@ -29,7 +29,7 @@ function App() {
                  <TransitionGroup>
                   <CSSTransition 
                     key={location.key} 
-                    timeout={500} 
+                    timeout={600} 
                     
                     classNames={'fade'}
                     

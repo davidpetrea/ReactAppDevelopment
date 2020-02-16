@@ -933,7 +933,7 @@ a {
 
      .fade-enter-active{
        opacity :1;
-       transition: opacity 300ms ease-in;
+       transition: opacity 600ms ease-in;
        
      }
 
@@ -943,8 +943,10 @@ a {
     }
     
     .fade-exit {
-        opacity: 0;
-        transition: opacity 0ms linear;
+       
+        display:none;
+        
+        transition: display 0ms linear;
         
     }
     

@@ -13,11 +13,9 @@ class AboutContent extends React.Component{
     render() {
         let addModalClose=() => this.setState({addModalShow:false});
         return(
-            <main>
+            
                 <div className="container">
-                    <div className="background__image background__image--homepage">
-
-                    </div>
+                    
                     <div className="showcase-text">
                         <div className="showcase-text-title">ABOUT US</div>
                         <div className="showcase-text-main-2">Get to know our story and vision!</div>
@@ -72,7 +70,7 @@ class AboutContent extends React.Component{
                     </div>
                     
                 </div>
-            </main>
+            
         )
     }
 }

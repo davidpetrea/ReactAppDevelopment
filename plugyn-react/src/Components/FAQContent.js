@@ -12,11 +12,9 @@ class FAQContent extends React.Component{
         let addModalClose=() => this.setState({addModalShow:false});
 
         return(
-            <main>
+            
                 <div className="container">
-                    <div className="background__image background__image--homepage">
-
-                    </div>
+                    
                     <div className="showcase-text">
                         <div className="showcase-text-title">GOT ANY QUESTIONS?</div>
                         <div className="showcase-text-main-2">Check our FAQ section below!</div>
@@ -92,7 +90,7 @@ class FAQContent extends React.Component{
                     </div>
                     
                 </div>
-            </main>
+            
              
         )
     }
