@@ -674,9 +674,9 @@ a {
   width:100%;
   padding-top:0px;
   padding-bottom:0px;
-  border-top:0.5px solid rgba(121, 121, 121, 0.2);
-  border-left:0.5px solid rgba(121, 121, 121, 0.2);
-  border-right:0.5px solid rgba(121, 121, 121, 0.2);
+  border-top:2px solid rgba(121, 121, 121, 0.2);
+  border-left:2px solid rgba(121, 121, 121, 0.2);
+  border-right:2px solid rgba(121, 121, 121, 0.2);
   border-bottom:0.5px solid #dfc777;
   border-radius:0px;
   border-top-left-radius: 3px;
@@ -686,15 +686,15 @@ a {
 .modal-body-container{
   background-color: rgba(0,0,0,.85);
   border-bottom: 0.5px solid #dfc777;
-  border-left:0.5px solid rgba(121, 121, 121, 0.2);
-  border-right:0.5px solid rgba(121, 121, 121, 0.2);
+  border-left:2px solid rgba(121, 121, 121, 0.2);
+  border-right:2px solid rgba(121, 121, 121, 0.2);
 }
 .modal-footer-container{
   background-color: rgba(0,0,0,.85);
   border-top:none;
-  border-left:0.5px solid rgba(121, 121, 121, 0.2);
-  border-right:0.5px solid rgba(121, 121, 121, 0.2);
-  border-bottom:0.5px solid rgba(121, 121, 121, 0.2);
+  border-left:2px solid rgba(121, 121, 121, 0.2);
+  border-right:2px solid rgba(121, 121, 121, 0.2);
+  border-bottom:2px solid rgba(121, 121, 121, 0.2);
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
 
