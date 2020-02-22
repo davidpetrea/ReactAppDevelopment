@@ -1,10 +1,11 @@
 import React from "react"
 import Server from "./Server"
 
-import backgroundAeldra from '../metin2wp2edit.png'
-import backgroundEkstasia from "../metin2wp1edit.png"
-import backgroundCelestial  from "../metin2wp3edit.png"
-import backgroundMenor  from "../metin2wp4edit.png"
+import backgroundAeldra from '../metin2wp2edit.jpg'
+import backgroundEkstasia from "../metin2wp1edit.jpg"
+import backgroundCelestial  from "../metin2wp3edit.jpg"
+import backgroundMenor  from "../metin2wp4edit.jpg"
+import background5 from "../metin2wp5edit.jpg"
 
 class Content extends React.Component{
     render() {
@@ -41,7 +42,7 @@ class Content extends React.Component{
                             </div>
                             <div className="row">
                                 <Server image={backgroundAeldra} serverName="Nexus II" price="300kk Yang = 10 €" serverDescription="Grab an advantage on this unique Metin2 experience with entirely new systems and mechanics!"/>
-                                <Server image={backgroundEkstasia} serverName="Evion" price="1.2kkk Yang = 10 €" serverDescription="Get stronger today on the newest Metin2 Private Server available!"/>
+                                <Server image={background5} serverName="Evion" price="1.2kkk Yang = 10 €" serverDescription="Get stronger today on the newest Metin2 Private Server available!"/>
                             </div>
                             <div className="row">
                                 <Server image={backgroundMenor} serverName="Lysium" price="300kk Yang = 10 €" serverDescription="Grab an advantage on this unique Metin2 experience with entirely new systems and mechanics!"/>
