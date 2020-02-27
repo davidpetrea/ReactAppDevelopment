@@ -1,5 +1,5 @@
 import React from "react"
-
+import firebase from "./Firebase"
 import {Link} from 'react-router-dom'
 import {Row, Col, Form, Button} from 'react-bootstrap'
 import ContactModal from './ContactModal'
@@ -7,10 +7,57 @@ import ContactModal from './ContactModal'
 class SuppliersContent extends React.Component{
     constructor(props){
         super(props);
-        this.state={addModalShow: false}
+        this.state={
+            addModalShow: false,
+            email:"",
+            nickname:"",
+            contact:"",
+            server:"",
+            stock:""
+        
+        
+        
+        
+        
+        }
     }
     
     
+    updateInput = e => {
+        this.setState(
+            {
+                [e.target.name]:e.target.value
+            }
+        );
+        
+    }
+
+    addUser = e => {
+        alert("Your data was registered succesfully! We will contact you shortly.")
+        e.preventDefault();
+        const db = firebase.firestore();
+        db.settings({
+            timestampsInSnapshots: true
+        });
+        const userRef = db.collection("suppliers").add({
+            email: this.state.email,
+            nickname: this.state.nickname,
+            contact: this.state.contact,
+            server: this.state.server,
+            stock: this.state.stock
+        });
+
+        this.setState({
+            email:"",
+            nickname:"",
+            contact:"",
+            server:"",
+            stock:""
+        })
+        
+    }
+
+
     render() {
         let addModalClose=() => this.setState({addModalShow:false});
         return(
@@ -28,12 +75,12 @@ class SuppliersContent extends React.Component{
                                 Tell us a bit about yourself
                             </div>
 
-                            <Form className="supplier-form-container">
+                            <Form className="supplier-form-container" onSubmit={this.addUser}>
                                 <Row className="justify-content-center">
                                     <Col xs={12} lg={6}>
-                                        <Form.Group controlId="formBasicEmail">
+                                        <Form.Group>
                                             <Form.Label style={{marginLeft:'0px'}}>Email address</Form.Label>
-                                            <Form.Control type="email" placeholder="Enter email"/>
+                                            <Form.Control type="email" placeholder="Enter email" name="email" onChange={this.updateInput} value={this.state.email}/>
                                             <Form.Text>We'll never share your email with anyone else.</Form.Text>
                                             
                                         
@@ -43,7 +90,7 @@ class SuppliersContent extends React.Component{
                                     <Col xs={12} lg={6}>
                                         <Form.Group controlId="formNickname">
                                             <Form.Label>Nickname</Form.Label>
-                                            <Form.Control type="text" placeholder="Enter your nickname"/>
+                                            <Form.Control type="text" placeholder="Enter your nickname" name="nickname" onChange={this.updateInput} value={this.state.nickname}/>
                                             
                                             
                                         
@@ -56,7 +103,7 @@ class SuppliersContent extends React.Component{
                                     <Col lg={6}>
                                         <Form.Group controlId="formContactID">
                                             <Form.Label>Discord/Skype ID</Form.Label>
-                                            <Form.Control type="text" placeholder="Enter your Discord or Skype ID"/>
+                                            <Form.Control type="text" placeholder="Enter your Discord or Skype ID" name="contact" onChange={this.updateInput} value={this.state.contact}/>
                                             <Form.Text>We'll need this in order to contact you as quick as possible.</Form.Text>
                                             
                                             
@@ -69,7 +116,7 @@ class SuppliersContent extends React.Component{
                                     <Col lg={6} >
                                         <Form.Group controlId="exampleForm.ControlSelect1">
                                             <Form.Label>What server do you want to sell on?</Form.Label>
-                                            <Form.Control as="select">
+                                            <Form.Control as="select" name="server"  onChange={this.updateInput} value={this.state.server}>
                                                 <option>Evion</option>
                                                 <option>Nexus</option>
                                                 <option>Age of Menor</option>
@@ -83,14 +130,14 @@ class SuppliersContent extends React.Component{
                                     <Col lg={6}>
                                         <Form.Group controlId="formContactID">
                                             <Form.Label>What is your current stock?</Form.Label>
-                                            <Form.Control type="text" placeholder="Example: 25kkk/100k Lagis"/>
+                                            <Form.Control type="text" placeholder="Example: 25kkk/100k Lagis" name="stock" onChange={this.updateInput} value={this.state.stock}/>
                                             
                                             
                                         
                                          </Form.Group>    
                                     </Col>
                                     <Col>
-                                        <Button variant="primary" type="submit" className="submit-button">
+                                        <Button variant="primary" className="submit-button" type="submit" >
                                             Submit
                                         </Button>
                                     </Col>
