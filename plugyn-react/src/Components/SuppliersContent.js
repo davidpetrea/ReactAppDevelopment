@@ -12,13 +12,9 @@ class SuppliersContent extends React.Component{
             email:"",
             nickname:"",
             contact:"",
-            server:"",
+            server:"Evion",
             stock:""
-        
-        
-        
-        
-        
+    
         }
     }
     
@@ -80,7 +76,7 @@ class SuppliersContent extends React.Component{
                                     <Col xs={12} lg={6}>
                                         <Form.Group>
                                             <Form.Label style={{marginLeft:'0px'}}>Email address</Form.Label>
-                                            <Form.Control type="email" placeholder="Enter email" name="email" onChange={this.updateInput} value={this.state.email}/>
+                                            <Form.Control type="email" required placeholder="Enter email" name="email" onChange={this.updateInput} value={this.state.email}/>
                                             <Form.Text>We'll never share your email with anyone else.</Form.Text>
                                             
                                         
@@ -90,7 +86,7 @@ class SuppliersContent extends React.Component{
                                     <Col xs={12} lg={6}>
                                         <Form.Group controlId="formNickname">
                                             <Form.Label>Nickname</Form.Label>
-                                            <Form.Control type="text" placeholder="Enter your nickname" name="nickname" onChange={this.updateInput} value={this.state.nickname}/>
+                                            <Form.Control type="text" required placeholder="Enter your nickname" name="nickname" onChange={this.updateInput} value={this.state.nickname}/>
                                             
                                             
                                         
@@ -103,7 +99,7 @@ class SuppliersContent extends React.Component{
                                     <Col lg={6}>
                                         <Form.Group controlId="formContactID">
                                             <Form.Label>Discord/Skype ID</Form.Label>
-                                            <Form.Control type="text" placeholder="Enter your Discord or Skype ID" name="contact" onChange={this.updateInput} value={this.state.contact}/>
+                                            <Form.Control type="text" required placeholder="Enter your Discord or Skype ID" name="contact" onChange={this.updateInput} value={this.state.contact}/>
                                             <Form.Text>We'll need this in order to contact you as quick as possible.</Form.Text>
                                             
                                             
@@ -130,7 +126,7 @@ class SuppliersContent extends React.Component{
                                     <Col lg={6}>
                                         <Form.Group controlId="formContactID">
                                             <Form.Label>What is your current stock?</Form.Label>
-                                            <Form.Control type="text" placeholder="Example: 25kkk/100k Lagis" name="stock" onChange={this.updateInput} value={this.state.stock}/>
+                                            <Form.Control type="text" required placeholder="Example: 25kkk/100k Lagis" name="stock" onChange={this.updateInput} value={this.state.stock}/>
                                             
                                             
                                         
