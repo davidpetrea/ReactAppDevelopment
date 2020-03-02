@@ -14,12 +14,12 @@ class Reviews extends React.Component{
                 <div className="review-elite-box">
                     <div className="reviews-elite">Store Rated 5 Stars</div> 
                     <div className="stars-container">
-                        <img className="stars" src={Stars}></img>
+                        <img className="stars" src={Stars} alt="stars"></img>
                     </div>
                     <div className="reviews-text">With over <span className="rates">500</span>  unique positive reviews on</div>
-                    <div className="elite-text"><a href="https://www.elitepvpers.com/forum/members/7528862-plugyn.html" target="_blank">ELITEPVPERS.COM</a></div>
+                    <div className="elite-text"><a href="https://www.elitepvpers.com/forum/members/7528862-plugyn.html" target="_blank" rel="noopener noreferrer">ELITEPVPERS.COM</a></div>
                     <div>
-                        <a href="https://www.elitepvpers.com/forum/metin2-trading/4599199-all-private-servers-450-positive-reviews-yangstore-plugyn-cheap-safe.html" target="_blank"><button className="button-4">Check our thread</button></a>
+                        <a href="https://www.elitepvpers.com/forum/metin2-trading/4599199-all-private-servers-450-positive-reviews-yangstore-plugyn-cheap-safe.html" target="_blank" rel="noopener noreferrer"><button className="button-4">Check our thread</button></a>
                     </div>
                 </div>
                 

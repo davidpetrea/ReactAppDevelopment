@@ -2,7 +2,11 @@ import React from "react"
 
 import PaypalLogo from "../ppLogo.png"
 import SkrillLogo from "../skrillLogo.png"
-import PSCLogo from "../pscLogo.jpg"
+import BitcoinLogo from "../bitcoinLogo.png"
+import Order1 from "../order-1.png"
+import Order2 from "../order2.png"
+import Order3 from "../order-3.png"
+import Order4 from "../order-4.png"
 import {Link} from 'react-router-dom'
 import ContactModal from './ContactModal'
 
@@ -32,24 +36,47 @@ class HowContent extends React.Component{
                                 How it works
                             </div>
 
-                            <div>
-                                When you decide what you want to buy, you need to contact us over the Live Chat, Discord, Skype or E-mail. Please note that Live Chat is the fastest way to reach us.
-                                You will need to tell us the server you want to buy yang on, how much and what payment method you wish to use. After we have checked if that amount of yang is in our stock, we can begin the trade process.
+                            <div className="col-lg-12 how-paragraph">
+                                <div>
+                                    <img src={Order1} style={{width:"50px"}} alt="1"></img>
+                                    <div  className="list-element"> Once you decided the server you want to buy yang on, contact us over the Live Chat, Discord, or Skype. Please note that Live Chat is the fastest way to reach us. </div>
+                                </div>
                             </div>
+
+                            <div className="col-lg-12 how-paragraph">
+                                <div>
+                                    <img src={Order2} style={{width:"50px"}} alt="2"></img>
+                                    <div  className="list-element"> 	Tell us the server and the amount of yang you want to buy, as well as what payment method you wish to use. </div>
+                                </div>
+                            </div>
+
+
                             <div className="row payment-methods justify-content-lg-between">
                                 <div className="col">
-                                    <img src={PaypalLogo} className="payment-method-logo"></img>
+                                    <img src={PaypalLogo} className="payment-method-logo" alt="paypal logo"></img>
                                 </div>
                                 <div className="col align-self-center">
-                                    <img src={SkrillLogo} className=" payment-method-logo"></img>
+                                    <img src={SkrillLogo} className=" payment-method-logo" alt="skrill logo"></img>
                                 </div>
                                 <div className="col align-self-center">
-                                    <img src={PSCLogo} className="payment-method-logo-psc"></img>
+                                    <img src={BitcoinLogo} className="payment-method-logo-psc" alt="psc logo"></img>
                                 </div>
                             </div>
-                            <div className="how-paragraph">
-                                As soon as we confirmed payment, we will meet in-game or buy from your shop (depending on the server, we have different safe methods of selling yang). 
-                            Once the trade is concluded, we kindly ask you to leave a positive review on our trustpilot page: insert link here
+
+                            <div className="col-lg-12 how-paragraph">
+                                <div>
+                                    <img src={Order3} style={{width:"50px"}} alt="3"></img>
+                                    <div  className="list-element"> After we have checked if that amount is in our stock, we can begin the trade process. </div>
+                                </div>
+                            </div>
+
+
+
+                            <div className="col-lg-12 how-paragraph">
+                                <div>
+                                    <img src={Order4} style={{width:"50px"}} alt="4"></img>
+                                    <div  className="list-element"> As soon as we confirmed payment, we will meet in-game or buy from your shop (depending on the server). </div>
+                                </div>
                             </div>
 
 
@@ -69,11 +96,11 @@ class HowContent extends React.Component{
                             </div>
 
                             <div className="col-lg-12 how-paragraph">
-                            3)	If you wish to sell yang to us, please complete the form here (link to Become a supplier). It is necessary that you have a Discord or a Skype. If you only wish to sell yang once, just contact us on Live Chat. 
+                            3)	If you wish to sell yang to us, please complete the form <Link className="link-word"><span>here</span></Link>. It is necessary that you have a Discord or a Skype. If you only wish to sell yang once, just contact us on Live Chat. 
                             </div>
 
                             <div className="col-lg-12 how-paragraph">
-                            4)	At this moment, we only accept offline paysafecards bought in Germany. 
+                            4)	At this moment, we only accept bitcoin for orders larger than 50 euro. 
                             </div>
                             
                             <div className="col-lg-6 col-12 contact-button">

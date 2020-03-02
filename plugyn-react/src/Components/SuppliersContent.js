@@ -12,7 +12,7 @@ class SuppliersContent extends React.Component{
             email:"",
             nickname:"",
             contact:"",
-            server:"Evion",
+            server:"Age of Menor",
             stock:""
     
         }
@@ -113,12 +113,17 @@ class SuppliersContent extends React.Component{
                                         <Form.Group controlId="exampleForm.ControlSelect1">
                                             <Form.Label>What server do you want to sell on?</Form.Label>
                                             <Form.Control as="select" name="server"  onChange={this.updateInput} value={this.state.server}>
-                                                <option>Evion</option>
-                                                <option>Nexus</option>
                                                 <option>Age of Menor</option>
-                                                <option>Ekstasia</option>
                                                 <option>Celestial World II</option>
+                                                <option>Ekstasia</option>
+                                                <option>Evion</option>
+                                                <option>Genesis DE</option>
+                                                <option>Rubinum DE</option>
+                                                <option>Nayah II</option>
+                                                <option>Nexus II</option>
                                                 <option>Origins II</option>
+                                                <option>Sepherion</option>
+                                                <option>Someya</option>
                                                 
                                             </Form.Control>
                                         </Form.Group> 
@@ -134,7 +139,7 @@ class SuppliersContent extends React.Component{
                                     </Col>
                                     <Col>
                                         <Button variant="primary" className="submit-button" type="submit" >
-                                            Submit
+                                            SUBMIT
                                         </Button>
                                     </Col>
                                 </Row>
@@ -150,7 +155,7 @@ class SuppliersContent extends React.Component{
 
                             <Row>
                                 <Col>
-                                    <div>TIP: We will do our best to contact you as soon as possible, but you can assure the quickest reponse by personally contacting us on whichever platform you prefer.</div>
+                                    <div>TIP: We will do our best to contact you as soon as possible, but you can assure the quickest reponse by contacting us on whichever platform you prefer.</div>
                                 
                                 </Col>
                             </Row>

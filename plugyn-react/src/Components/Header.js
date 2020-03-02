@@ -39,27 +39,27 @@ class Header extends React.Component{
                             </div>
                             
                             <div className="col-md align-self-center nav-item">
-                                <Link to='/howitworks' style={{textDecoration: 'none'}}>
-                                    <span className="nav-item-text"><a href="">HOW IT WORKS</a></span>
+                                <Link to='/howitworks' className="header-links" >
+                                    <span className="nav-item-text">HOW IT WORKS</span>
                                 </Link>
                             </div>
                             
                             <div className="col-md align-self-center nav-item">
-                                <Link to='/about' style={{textDecoration: 'none'}}>
-                                    <span className="nav-item-text"><a href="">ABOUT US</a></span>
+                                <Link to='/about' className="header-links" >
+                                    <span className="nav-item-text">ABOUT US</span>
                                 </Link>
                             </div>
                         
                             
                             <div className="col-md align-self-center nav-item">
-                                <Link to='/suppliers' style={{textDecoration:'none'}}>
-                                    <span className="nav-item-text"><a href="">BECOME A SUPPLIER</a></span>
+                                <Link to='/suppliers' className="header-links" >
+                                    <span className="nav-item-text">BECOME A SUPPLIER</span>
                                 </Link>
                             </div>
 
                             <div className="col-md align-self-center nav-item">
-                                <Link to='/faq' style={{textDecoration: 'none'}}>
-                                    <span className="nav-item-text"><a href="">FAQ</a></span>
+                                <Link to='/faq' className="header-links" >
+                                    <span className="nav-item-text">FAQ</span>
                                 </Link>
                             </div>
                             <div className="col-md align-self-center nav-item">

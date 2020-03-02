@@ -8,10 +8,12 @@ import SkypeLogo from "../skypeLogo.png"
 
 
 class ContactModal extends React.Component {
-    constructor(props) {
-        super(props);
+    
+     copyToClip = () => {
+        var copyText = document.querySelector("#discordTag");
+        copyText.select();
+        document.execCommand("copy");
     }
-
 
     render() {
         return (
@@ -34,12 +36,7 @@ class ContactModal extends React.Component {
                         
                     </Modal.Title>
 
-
-
                 </Modal.Header>
-                
-                
-                
                 
                 <Modal.Body className="modal-body-container">
                     <div>
@@ -84,18 +81,19 @@ class ContactModal extends React.Component {
                         </Row>
                         <Row className="justify-content-center modal-buttons">
                             <div className="modal-button-60w">
-                                <Button className="info-modal-button" href="">
+                                <Button className="info-modal-button" onClick={this.copyToClip}>
                                     
-                                <img src={DiscordLogo} className="footer-contact-logo"></img>
-                                    PlugynStore#2310
+                                <img src={DiscordLogo} className="footer-contact-logo" alt="discord logo"></img>
+                                    <span>PlugynStore#2310</span>
+                                    <input id="discordTag" type="text" value="PlugynStore#2310" style={{display:"none"}}/>
                                 </Button>
                             </div>    
 
                         </Row>
                         <Row className="justify-content-center modal-buttons">
                              <div className="modal-button-60w">
-                                <Button className="info-modal-button">
-                                <img src={SkypeLogo} className="footer-contact-logo"></img>
+                                <Button className="info-modal-button" href="https://join.skype.com/invite/iRidvFOxNO2l">
+                                <img src={SkypeLogo} className="footer-contact-logo" alt="skype logo"></img>
                                     LIVE:PlugynStore
                                 </Button>
                             </div>

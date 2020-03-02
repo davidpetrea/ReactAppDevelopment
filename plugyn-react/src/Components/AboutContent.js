@@ -27,15 +27,20 @@ class AboutContent extends React.Component{
                                 Where it all started
                             </div>
 
-                            <div>
-                            One year ago we started on a journey with one thing in mind: creating a better experience for our clients. 600 unique customers and 1000 trades later, we can now proudly call ourselves one of the best metin2 traders on the market. 
-                           </div>
                             <div className="col-lg-12 how-paragraph">
-                            Why choose us? We offer the best prices on the market, we are reliable and friendly. You can always contact us and be sure to get the best answer. We are commited to giving you the best experience by giving you yang fast, easy and cheap so you can be the best in your server.
+                                We are a small team of passionate people who are willing to bring online trading to the next level. And with your help, we can do just that. 
+                           </div>
+
+                           <div className="col-lg-12 how-paragraph">
+                           One year ago we started on a journey with one thing in mind: creating a better experience for gamers everywhere. 630 unique customers and 1000 trades later, we can now proudly call ourselves one of the best Metin2 traders on the market. And we are still on the rise.
                             </div>
 
                             <div className="col-lg-12 how-paragraph">
-                            We are thankful for all the clients we had so far, and we proudly invite every client to check us out. We care about you!                            </div>
+                            Why choose us? Not only we offer the best prices on the market, we are always here to help fulfill your needs. Using our reliability and deep respect for each individual we trade with, we are commited to offering you the best experience you can have.
+                            </div>
+
+                            <div className="col-lg-12 how-paragraph">
+                            We are thankful for all the people we’ve traded with so far, and we proudly invite every client to check us out. We care about you!                            </div>
 
 
                             

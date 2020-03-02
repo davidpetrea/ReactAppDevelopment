@@ -7,7 +7,7 @@ class Trait extends React.Component{
             return(
                 <div className="col-8 col-lg-3 trait-item">
                     <div className="trait-img">
-                        <img src={this.props.image} ></img>
+                        <img src={this.props.image} alt="trait alt"></img>
                     </div>
                     <div className="trait-header">
                         {this.props.traitHeader}

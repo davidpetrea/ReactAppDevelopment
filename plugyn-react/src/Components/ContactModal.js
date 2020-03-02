@@ -6,9 +6,7 @@ import SkypeLogo from "../skypeLogoBright.png"
 
 
 class ContactModal extends React.Component {
-    constructor(props) {
-        super(props);
-    }
+    
 
 
     render() {
@@ -43,13 +41,13 @@ class ContactModal extends React.Component {
                         <Row className="justify-content-center modal-buttons">
                         
                             <Button className="discord-modal-button">
-                                <img src={DiscordLogo} className="footer-contact-logo"></img>
+                                <img src={DiscordLogo} className="footer-contact-logo" alt="discord-logo"></img>
                                 PlugynStore#2310
                             </Button>
                         </Row>
                         <Row className="justify-content-center modal-buttons">
-                            <Button className="skype-modal-button">
-                                <img src={SkypeLogo} className="footer-contact-logo"></img>
+                            <Button className="skype-modal-button" href="https://join.skype.com/invite/iRidvFOxNO2l">
+                                <img src={SkypeLogo} className="footer-contact-logo" alt="skype-logo"></img>
                                 LIVE:PlugynStore
                             </Button>
                         </Row>

@@ -117,9 +117,9 @@ a {
       white-space: nowrap;
     }
 
-    
-    .nav-item-text a{
-      text-decoration: none;
+
+    .header-links{
+      text-decoration:none;
       color:white;
       font-size:18px;
       font-family:"plugynCasual";
@@ -127,11 +127,15 @@ a {
       line-height:40px;
       transition:font-size 0.2s ease-in-out;
     }
+    
+    
 
-    .nav-item-text a:hover{
-      font-size:22px;
+    .header-links:hover{
+      text-decoration:none;
+      font-size:21px;
       border-bottom:.5px solid #dfc777;
       transition :font-size 0.2s ease-in-out;
+      color:white;
       
     }
     
@@ -290,7 +294,7 @@ a {
       text-transform: uppercase;
       color:rgba(0,0,0,.85);
       background-color:#d3af4d;
-      border:.5px solid rgba(255,255,255,.5);
+      border:.5px solid #c5a039;
       width:40%;
       font-size:16px;
       font-weight: 900;
@@ -579,9 +583,9 @@ a {
 
   .howitworks-header-2{
     font-family:"plugynCasual";
-    font-size: 24px;
+    font-size: 30px;
     color:rgb(240, 240, 240);
-    font-weight: 500;
+    font-weight: 700;
     margin-bottom:10px;
     
   }
@@ -599,6 +603,33 @@ a {
 
   .how-paragraph{
     margin-top:20px;
+    margin-bottom:20px;
+    
+  }
+  
+  .list-element{
+    margin-top:5px;
+    padding:5px 70px 5px 70px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top:.5px solid #dfc777;
+    border-bottom: .5px solid #dfc777;
+    
+  }
+
+  .link-word{
+    text-decoration:none;
+    color:#dfc777;
+    font-size:20px;
+    font-family:"plugynCasual";
+  }
+  .link-word:hover{
+    text-decoration:none;
+    color:#dfc777;
+    font-size:20px;
+    border-bottom:0.5px solid #dfc777;
   }
 
   .payment-methods{
@@ -869,11 +900,13 @@ a {
     margin-top:30px;
     margin-bottom:20px;
     background-color:transparent;
+    border:1px solid #eed06e;
     width:30%;
   }
 
   .submit-button:hover{
     background-color:transparent;
+    border:1px solid #b6952a;
   }
 
 /* Background */
@@ -980,7 +1013,16 @@ a {
 
     
    
+    @media only screen and (max-width: 576px){
 
+
+      .submit-button{
+        width:60%;
+      }
+      .button-5{
+        width:50%;
+      }
+    }
 
 
 
@@ -1066,6 +1108,19 @@ a {
 
   .showcase-text-title{
     font-size:50px;
+  }
+}
+
+@media only screen and (max-width: 992px){
+
+
+  .header-links:hover{
+    text-decoration:none;
+    font-size:18px;
+    border-bottom:.5px solid #dfc777;
+    
+    color:white;
+    
   }
 }
 
