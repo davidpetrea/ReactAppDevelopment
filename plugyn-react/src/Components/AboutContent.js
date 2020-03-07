@@ -2,6 +2,7 @@ import React from "react"
 
 import {Link} from 'react-router-dom'
 import ContactModal from './ContactModal'
+import {Helmet} from 'react-helmet'
 
 class AboutContent extends React.Component{
     constructor(props){
@@ -13,8 +14,12 @@ class AboutContent extends React.Component{
     render() {
         let addModalClose=() => this.setState({addModalShow:false});
         return(
-            
-                <div className="container">
+            <div>
+                <Helmet>
+                    <title>Plugyn Store | About Us</title>
+                </Helmet>
+                
+                 <div className="container">
                     
                     <div className="showcase-text">
                         <div className="showcase-text-title">ABOUT US</div>
@@ -32,7 +37,7 @@ class AboutContent extends React.Component{
                            </div>
 
                            <div className="col-lg-12 how-paragraph">
-                           One year ago we started on a journey with one thing in mind: creating a better experience for gamers everywhere. 630 unique customers and 1000 trades later, we can now proudly call ourselves one of the best Metin2 traders on the market. And we are still on the rise.
+                           One year ago we started on a journey with one thing in mind: creating a better experience for gamers everywhere. 680 unique customers and 1000 trades later, we can now proudly call ourselves one of the best Metin2 traders on the market. And we are still on the rise.
                             </div>
 
                             <div className="col-lg-12 how-paragraph">
@@ -74,7 +79,9 @@ class AboutContent extends React.Component{
                         </div>
                     </div>
                     
-                </div>
+                </div>   
+            </div>
+                
             
         )
     }

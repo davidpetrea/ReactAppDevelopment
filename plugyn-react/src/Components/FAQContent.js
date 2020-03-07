@@ -1,6 +1,7 @@
 import React from "react"
 import ContactModal from './ContactModal'
 import {Link} from 'react-router-dom'
+import {Helmet} from 'react-helmet'
 
 class FAQContent extends React.Component{
     constructor(props){
@@ -12,8 +13,14 @@ class FAQContent extends React.Component{
         let addModalClose=() => this.setState({addModalShow:false});
 
         return(
-            
-                <div className="container">
+                <div>
+
+
+                    <Helmet>
+                        <title>Plugyn Store | Frequently Asked Questions</title>
+                        <meta name="description" content="Buy cheap yang for all metin2 private servers from the plugyn store! Come today and enjoy our spring sale for servers like Evion, Origins, Celestial World, Rubinum DE and Genesis DE."/>
+                    </Helmet>
+                     <div className="container">
                     
                     <div className="showcase-text">
                         <div className="showcase-text-title">GOT ANY QUESTIONS?</div>
@@ -118,7 +125,9 @@ class FAQContent extends React.Component{
                     </div>
                     
                 </div>
-            
+               
+                </div>
+                
              
         )
     }

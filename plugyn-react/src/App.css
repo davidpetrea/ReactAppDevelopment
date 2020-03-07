@@ -20,6 +20,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'plugynBold';
+  src: url('WebFonts/plugynBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 
 /* GENERAL */
@@ -122,10 +129,11 @@ a {
       text-decoration:none;
       color:white;
       font-size:18px;
-      font-family:"plugynCasual";
+      font-family:"plugynBold";
       font-weight: 900;
       line-height:40px;
       transition:font-size 0.2s ease-in-out;
+      text-shadow: 0 0 3px black;
     }
     
     
@@ -168,7 +176,7 @@ a {
       padding-top:60px;
     }
     .showcase-text-title{
-      font-family:"plugynCasual";
+      font-family:"plugynBold";
       font-weight: 900;
       font-size:25px;
       line-height:1.2;
@@ -178,10 +186,11 @@ a {
       text-transform:uppercase;
       letter-spacing:3px;
       color:#dfc777;
+      text-shadow: 0 0 10px black;
     }
 
     .showcase-text-main{
-      font-family:"plugynCasual";
+      font-family:"plugynBold";
       font-size:28px;
       line-height:1;
       margin-bottom:20px;
@@ -189,9 +198,10 @@ a {
       margin-right:5px;
       color:white;
       text-transform:uppercase;
+      text-shadow: 0 0 10px black;
     }
     .showcase-text-main-2{
-      font-family:"plugynCasual";
+      font-family:"plugynBold";
       font-size:24px;
       line-height:1;
       margin-bottom:20px;
@@ -213,8 +223,9 @@ a {
       font-weight: 700;
       border-radius:3px;
       margin-bottom:26px;
-      text-shadow:0 1px 1px rgba(0,0,0,.2);
+      
       cursor:pointer;
+      text-shadow: 0 0 2px black;
     }
     .button-1:hover{
       background-color:rgba(241,190,68,1);
@@ -235,6 +246,7 @@ a {
       border:2px solid rgba(241,190,68,.4);
       margin-bottom:26px;
       cursor:pointer;
+      text-shadow: 0 0 10px black;
 
       
     }
@@ -277,6 +289,7 @@ a {
       background-color:#b8994a;
       border:1px solid #b8994a;
       width:50%;
+      
       font-size:16px;
       font-weight: 700;
       border-radius:3px;
@@ -292,14 +305,14 @@ a {
     }
 
     .button-5{
-      font-family:"plugynCasual";
+      font-family:"plugynBold";
       height:80%;
       text-transform: uppercase;
       color:rgba(0,0,0,.85);
       background-color:#d3af4d;
       border:.5px solid #c5a039;
       width:40%;
-      font-size:16px;
+      font-size:18px;
       font-weight: 900;
       border-radius:3px;
       margin-bottom:24px;
@@ -322,13 +335,14 @@ a {
       padding-left:40px;
     }
     .servers-title{
-      font-family:"plugynCasual";
+      font-family:"plugynBold";
       font-size:30px;
       color:white;
       font-weight: 900;
       padding-bottom:5px;
       margin-bottom:24px;
       border-bottom: 1px solid #dfc777;
+      text-shadow: 0 0 10px black;
     }
     .servers{
       padding-right:30px;
@@ -363,11 +377,11 @@ a {
     }
 
     .server-name{
-      font-family: "plugynCasual";
+      font-family: "plugynBold";
       font-size:35px;
       font-weight:700;
       color:white;
-      
+      text-shadow: 0 0 10px black;
     }
     .server-description{
       font-family:"plugynCasual";
@@ -379,15 +393,25 @@ a {
       border-bottom:1px solid #dfc777;
       border-top:1px solid #dfc777;
       padding:20px;
+      text-shadow: 0 0 10px black;
     }
     .server-price{
-      font-family: "plugynCasual";
+      font-family: "plugynBold";
       font-weight: 900;
       font-size:30px;
-      color:white;
+      color:rgb(218, 218, 218);
       padding:2% 5% 2% 5%;
+      text-shadow: 0 0 25px black;
       
       
+      
+    }
+
+    .price-text-style{
+      padding:3px 15px 3px 15px;
+      background-color:rgba(16, 15, 39, 0.5);
+      border-radius:5px;
+      border:0.5px solid rgba(255,255,255,.3);
     }
     
     /* Reviews */
@@ -398,29 +422,33 @@ a {
     }
 
     .reviews-title{
-      font-family:"plugynCasual";
+      font-family:"plugynBold";
       font-size:36px;
       color:white;
       font-weight: 900;
       padding-bottom:5px;
       margin-bottom:24px;
       border-bottom: 1px solid #dfc777;
+      text-shadow: 0 0 3px black;
     }
     .reviews-text{
-      font-family:"plugynCasual";
+      font-family:"plugynBold";
       font-size:22px;
       margin-bottom:10px;
       color:white;
+      text-shadow: 0 0 3px black;
+      
     }
 
     .review-elite-box{
       background:rgba(111,111,111,0.05);
       border-radius:6px;
       border:0.5px solid rgb(255,255,255,0.3);
+      text-shadow: 3px 3px 3px black;
       
     }
     .reviews-elite{
-      font-family:"plugynCasual";
+      font-family:"plugynBold";
       font-size:26px;
       color:white;
       font-weight: 900;
@@ -436,15 +464,15 @@ a {
       margin-bottom:10px;
     }
     .stars{
-      width:60%;
+      width:50%;
     }
     .rates{
-      font-family:"plugynCasual";
+      font-family:"plugynBold";
       font-size:30px;
       color:#dfc777;
     }
     .elite-text{
-      font-family:"plugynCasual";
+      font-family:"plugynBold";
       font-size:28px;
       font-weight: 900;
       margin-top:5px;
@@ -454,6 +482,12 @@ a {
     .elite-text a{
       text-decoration: none;
       color:#dfc777;
+      
+    }
+
+    .elite-text-style:hover{
+      border-bottom:1px solid #dfc777;
+      transition: border 1000ms ease-in-out;
     }
 
   /* Traits */
@@ -473,11 +507,12 @@ a {
   }
 
   .trait-header{
-    font-family:"plugynCasual";
+    font-family:"plugynBold";
     font-size:25px;
     color:#dfc777;
     font-weight: 550;
     margin-top:5px;
+    text-shadow: 0 0 3px black;
 
     
   }
@@ -485,6 +520,7 @@ a {
     font-family:"plugynCasual";
     font-size:17px;
     color:white;
+    text-shadow: 2px 0 8px black;
  
   }
 
@@ -507,7 +543,7 @@ a {
     padding-left:30px;
   }
   .footer-info-header{
-    font-family:"plugynCasual";
+    font-family:"plugynBold";
     font-size:18px;
     font-weight: 900;
     color:rgb(41, 41, 41);
@@ -568,15 +604,16 @@ a {
   }
 
   .howitworks-text{
-    font-family:"plugynCasual";
+    font-family:"plugynBold";
     font-size: 18px;
     color:rgb(200, 200, 200);
     font-weight: 700;
+    text-shadow: 2px 0 3px black;
     
   }
 
   .howitworks-header{
-    font-family:"plugynCasual";
+    font-family:"plugynBold";
     font-size: 35px;
     color:rgb(240, 240, 240);
     font-weight: 700;
@@ -585,20 +622,21 @@ a {
   }
 
   .howitworks-header-2{
-    font-family:"plugynCasual";
+    font-family:"plugynBold";
     font-size: 30px;
     color:rgb(240, 240, 240);
     font-weight: 700;
     margin-bottom:10px;
-    
+    text-shadow: 3px 2px 5px black;
   }
   .howitworks-header-3{
     margin-top:30px;
-    font-family:"plugynCasual";
+    font-family:"plugynBold";
     font-size: 25px;
     color:rgb(240, 240, 240);
     font-weight: 500;
     border-bottom:1px solid #dfc777;
+    text-shadow: 3px 2px 5px black;
     
     
     
@@ -688,7 +726,7 @@ a {
 
 
 .modal-header{
-  font-family:"plugynCasual";
+  font-family:"plugynBold";
   color:rgba(255,255,255,.8);
   font-weight:700;
   font-size:24px;
@@ -701,6 +739,7 @@ a {
 }
 .modal-buttons{
   margin-top:7px;
+  
 }
 
 .modal-header-container{
@@ -737,7 +776,7 @@ a {
 
 
 .discord-modal-button{
-  font-family:"plugynCasual";
+  font-family:"plugynBold";
   background-color: #7289da;
   font-weight:700;
   font-size:14px;
@@ -754,7 +793,7 @@ a {
 
 }
 .skype-modal-button{
-  font-family:"plugynCasual";
+  font-family:"PlugynBold";
   background-color:  #00aff0;
   font-weight:700;
   font-size:14px;
@@ -770,7 +809,7 @@ a {
 
 
 .epvp-modal-button{
-  font-family:"plugynCasual";
+  font-family:"plugynBold";
   background-color: #13b24d; 
   font-weight:700;
   font-size:14px;
@@ -787,7 +826,7 @@ a {
 
 
 .modal-text{
-  font-family:"plugynCasual";
+  font-family:"plugynBold";
   font-size:17px;
   color:rgba(255,255,255,0.7);
   margin-top:10px;
@@ -795,7 +834,7 @@ a {
 }
 
 .modal-footer-text{
-  font-family:"plugynCasual";
+  font-family:"plugynBold";
   font-size:16px;
   color:rgba(255,255,255,0.7);
  
@@ -837,7 +876,7 @@ a {
   }
 
   .info-modal-button{
-    font-family:"plugynCasual";
+    font-family:"plugynBold";
     color:#dfc777;
     font-weight:700;
     font-size:14px;
@@ -1024,6 +1063,20 @@ a {
       }
       .button-5{
         width:50%;
+      }
+
+      .list-element{
+        padding:5px 10px 5px 10px;
+      }
+
+      .pay-margin{
+        margin-top:16px;
+      }
+      .pay-margin-btc{
+        margin-top:0px;
+      }
+      .showcase-text-title{
+        font-size:35px;
       }
     }
 

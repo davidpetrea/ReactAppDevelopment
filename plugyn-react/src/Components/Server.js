@@ -17,7 +17,7 @@ class Server extends React.Component{
                             {this.props.serverDescription}
                         </div>
                         <div className="server-price">
-                            {this.props.price}
+                            <span className="price-text-style">{this.props.price}</span>
                         </div>
                         <div>
                             <Link to="/howitworks">

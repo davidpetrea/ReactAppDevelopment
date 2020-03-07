@@ -40,7 +40,7 @@ class ContactModal extends React.Component {
                     <div>
                         <Row className="justify-content-center modal-buttons">
                         
-                            <Button className="discord-modal-button">
+                            <Button className="discord-modal-button" href="https://discordapp.com/users/557175395695198229">
                                 <img src={DiscordLogo} className="footer-contact-logo" alt="discord-logo"></img>
                                 PlugynStore#2310
                             </Button>
@@ -52,7 +52,7 @@ class ContactModal extends React.Component {
                             </Button>
                         </Row>
                         <Row className="justify-content-center modal-buttons">
-                            <Button className="epvp-modal-button">support@plugynstore.com</Button>
+                            <Button className="epvp-modal-button" href="mailto:support@plugynstore.com">support@plugynstore.com</Button>
                         </Row>
 
                         <Row className="justify-content-center">

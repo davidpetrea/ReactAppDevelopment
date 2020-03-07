@@ -9,6 +9,7 @@ import Order3 from "../order-3.png"
 import Order4 from "../order-4.png"
 import {Link} from 'react-router-dom'
 import ContactModal from './ContactModal'
+import {Helmet} from 'react-helmet'
 
 
 class HowContent extends React.Component{
@@ -21,9 +22,16 @@ class HowContent extends React.Component{
     render() {
         let addModalClose=() => this.setState({addModalShow:false});
         return(
-            
-                
-                <div className="container">
+
+                <div>
+
+                    <Helmet>
+                        <title>Plugyn Store | How trading works</title>
+                        <meta name="description" content="Buy cheap yang for all metin2 private servers from the plugyn store! Come today and enjoy our spring sale for servers like Evion, Origins, Celestial World, Rubinum DE and Genesis DE."/>
+                    </Helmet>
+
+
+                    <div className="container">
                     
                     <div className="showcase-text">
                         <div className="showcase-text-title">TRADING PROCESS</div>
@@ -52,13 +60,13 @@ class HowContent extends React.Component{
 
 
                             <div className="row payment-methods justify-content-lg-between">
-                                <div className="col">
+                                <div className="col align-self-center pay-margin">
                                     <img src={PaypalLogo} className="payment-method-logo" alt="paypal logo"></img>
                                 </div>
-                                <div className="col align-self-center">
+                                <div className="col align-self-center pay-margin">
                                     <img src={SkrillLogo} className=" payment-method-logo" alt="skrill logo"></img>
                                 </div>
-                                <div className="col align-self-center">
+                                <div className="col align-self-center pay-margin-btc">
                                     <img src={BitcoinLogo} className="payment-method-logo-psc" alt="psc logo"></img>
                                 </div>
                             </div>
@@ -96,7 +104,7 @@ class HowContent extends React.Component{
                             </div>
 
                             <div className="col-lg-12 how-paragraph">
-                            3)	If you wish to sell yang to us, please complete the form <Link className="link-word"><span>here</span></Link>. It is necessary that you have a Discord or a Skype. If you only wish to sell yang once, just contact us on Live Chat. 
+                            3)	If you wish to sell yang to us, please complete the form <Link to="/suppliers" className="link-word"><span>here</span></Link>. It is necessary that you have a Discord or a Skype. If you only wish to sell yang once, just contact us on Live Chat. 
                             </div>
 
                             <div className="col-lg-12 how-paragraph">
@@ -129,6 +137,8 @@ class HowContent extends React.Component{
                     </div>
                     
                 </div>
+                </div>
+                
             
         )
     }

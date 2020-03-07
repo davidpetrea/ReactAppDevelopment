@@ -9,11 +9,7 @@ import SkypeLogo from "../skypeLogo.png"
 
 class ContactModal extends React.Component {
     
-     copyToClip = () => {
-        var copyText = document.querySelector("#discordTag");
-        copyText.select();
-        document.execCommand("copy");
-    }
+     
 
     render() {
         return (
@@ -81,7 +77,7 @@ class ContactModal extends React.Component {
                         </Row>
                         <Row className="justify-content-center modal-buttons">
                             <div className="modal-button-60w">
-                                <Button className="info-modal-button" onClick={this.copyToClip}>
+                                <Button className="info-modal-button" href="https://discordapp.com/users/557175395695198229">
                                     
                                 <img src={DiscordLogo} className="footer-contact-logo" alt="discord logo"></img>
                                     <span>PlugynStore#2310</span>
@@ -100,7 +96,7 @@ class ContactModal extends React.Component {
                         </Row>
                         <Row className="justify-content-center modal-buttons">
                             <div className="modal-button-60w">
-                                 <Button className="info-modal-button">support@plugynstore.com</Button>
+                                 <Button className="info-modal-button" href="mailto:support@plugynstore.com">support@plugynstore.com</Button>
                             </div>
                         </Row>
                         

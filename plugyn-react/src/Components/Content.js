@@ -6,6 +6,9 @@ import backgroundEkstasia from "../metin2wp1edit.jpg"
 import backgroundCelestial  from "../metin2wp3edit.jpg"
 import backgroundMenor  from "../metin2wp4edit.jpg"
 import background5 from "../metin2wp5edit.jpg"
+import background6 from "../metin2wp6edit.png"
+import background7 from "../metin2wp7edit.png"
+import background8 from "../metin2wp8edit.png"
 
 class Content extends React.Component{
     render() {
@@ -14,8 +17,8 @@ class Content extends React.Component{
                 <div>
                     
                     <div className="showcase-text">
-                        <div className="showcase-text-title">Best Metin2 Deals on the Market</div>
-                        <div className="showcase-text-main">Get yang on your favourite Metin2 server and become the strongest today!</div>
+                        <h1 className="showcase-text-title">Welcome to the Plugyn Store!</h1>
+                        <h2 className="showcase-text-main">Get cheap yang on your favourite Metin2 server and become the strongest today!</h2>
                         <div className="showcase-buttons">
                              <a href='#servers'>
                                 <button className="button-1">
@@ -41,12 +44,12 @@ class Content extends React.Component{
                                 <Server image={backgroundAeldra} serverName="Nayah II" price="100kkk Yang = 10 €" serverDescription="Nayah2 brings a balanced PvP experience to the Metin2 scene, offering many battlegrounds as well as some PvM content along the way."/>
                             </div>
                             <div className="row">
-                                <Server image={backgroundAeldra} serverName="Nexus II" price="1.5kkk Yang = 10 €" serverDescription="The definition of a PvM experience, this server brings a great deal of content to the table. An ever-growing community that actually makes its voice heard awaits for you!"/>
+                                <Server image={background6} serverName="Nexus II" price="1.5kkk Yang = 10 €" serverDescription="The definition of a PvM experience, this server brings a great deal of content to the table. An ever-growing community that actually makes its voice heard awaits for you!"/>
                                 <Server image={background5} serverName="Evion II" price="1.4kkk Yang = 10 €" serverDescription="Beginner-friendly and International, Evion2 is sure to please those of you who are looking for an adventure. Grab your friends and jump in this promising PvM experience together."/>
                             </div>
                             <div className="row">
-                                <Server image={backgroundMenor} serverName="Rubinum DE" price="6 won/600kk = 10 €" serverDescription="The latest addition to the official DE metin2 server-list will surely offer you a great challenge with a fresh old-school vibe."/>
-                                <Server image={backgroundCelestial} serverName="Genesis DE" price="10 won/1kkk = 10 €" serverDescription="As part of the most populated official server, the Genesis community will make sure you have a great time and enjoy the experience."/>
+                                <Server image={background7} serverName="Rubinum DE" price="6 won/600kk = 10 €" serverDescription="The latest addition to the official DE metin2 server-list will surely offer you a great challenge with a fresh old-school vibe."/>
+                                <Server image={background8} serverName="Genesis DE" price="10 won/1kkk = 10 €" serverDescription="As part of the most populated official server, the Genesis community will make sure you have a great time and enjoy the experience."/>
                             </div>
                             
                         </div>

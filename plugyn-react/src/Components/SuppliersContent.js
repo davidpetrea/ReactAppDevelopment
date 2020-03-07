@@ -3,6 +3,7 @@ import firebase from "./Firebase"
 import {Link} from 'react-router-dom'
 import {Row, Col, Form, Button} from 'react-bootstrap'
 import ContactModal from './ContactModal'
+import {Helmet} from 'react-helmet'
 
 class SuppliersContent extends React.Component{
     constructor(props){
@@ -57,8 +58,17 @@ class SuppliersContent extends React.Component{
     render() {
         let addModalClose=() => this.setState({addModalShow:false});
         return(
-            
-                <div className="container">
+            <div>
+                <Helmet>
+                    <title>Plugyn Store | Sell your yang for great prices</title>
+                    <meta name="description" content="Do you want to sell your yang on Metin2 official and private servers?
+                     Join the Plugyn Suppliers list! We are currently buying yang on Origins, Evion, Celestial World, WoM2, Age of Menor, Nexus, Rubinum DE, Genesis DE and more!" />
+                </Helmet>
+
+
+
+
+                 <div className="container">
                     
                     <div className="showcase-text">
                         <div className="showcase-text-title">WANT TO SELL YANG TO US?</div>
@@ -185,7 +195,9 @@ class SuppliersContent extends React.Component{
                         </div>
                     </div>
                     
-                </div>
+                </div>   
+            </div>
+                
             
         )
     }
