@@ -40,7 +40,7 @@ class Content extends React.Component{
                                 <Server image={backgroundCelestial} serverName="Celestial World II" price="50k Lagis = 10 €" serverDescription="This 6-year old new-school metin2 is still kicking. One of the most unique-rich servers on the market, with mechanics similar to those in Diablo and Path of Exile, is waiting for you."/>
                             </div>
                             <div  className="row">
-                                <Server image={backgroundMenor} serverName="Age of Menor" price="850kk Yang = 10 €" serverDescription="There’s nothing on the market quite like Age of Menor. This International server brings back the old-school vibes that made you fall in love with Metin2 in the first place. Feeling nostalgic? Give this highly-populated server a try."/>
+                                <Server image={backgroundMenor} serverName="Age of Menor" price="1kkk Yang = 10 €" serverDescription="There’s nothing on the market quite like Age of Menor. This International server brings back the old-school vibes that made you fall in love with Metin2 in the first place. Feeling nostalgic? Give this highly-populated server a try."/>
                                 <Server image={backgroundAeldra} serverName="Nayah II" price="100kkk Yang = 10 €" serverDescription="Nayah2 brings a balanced PvP experience to the Metin2 scene, offering many battlegrounds as well as some PvM content along the way."/>
                             </div>
                             <div className="row">
