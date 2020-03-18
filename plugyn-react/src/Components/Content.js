@@ -45,10 +45,10 @@ class Content extends React.Component{
                             </div>
                             <div className="row">
                                 <Server image={background6} serverName="Nexus II" price="1.5kkk Yang = 10 €" serverDescription="The definition of a PvM experience, this server brings a great deal of content to the table. An ever-growing community that actually makes its voice heard awaits for you!"/>
-                                <Server image={background5} serverName="Evion II" price="2kkk Yang = 10 €" serverDescription="Beginner-friendly and International, Evion2 is sure to please those of you who are looking for an adventure. Grab your friends and jump in this promising PvM experience together."/>
+                                <Server image={background5} serverName="Evion II" price="2.1kkk Yang = 10 €" serverDescription="Beginner-friendly and International, Evion2 is sure to please those of you who are looking for an adventure. Grab your friends and jump in this promising PvM experience together."/>
                             </div>
                             <div className="row">
-                                <Server image={background7} serverName="Rubinum DE" price="6 won/600kk = 10 €" serverDescription="The latest addition to the official DE metin2 server-list will surely offer you a great challenge with a fresh old-school vibe."/>
+                                <Server image={background7} serverName="Anima" price="6 won/600kk = 10 €" serverDescription="The latest addition to the official DE metin2 server-list will surely offer you a great challenge with a fresh old-school vibe."/>
                                 <Server image={background8} serverName="Genesis DE" price="10 won/1kkk = 10 €" serverDescription="As part of the most populated official server, the Genesis community will make sure you have a great time and enjoy the experience."/>
                             </div>
                             
