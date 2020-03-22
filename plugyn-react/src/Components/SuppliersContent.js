@@ -127,13 +127,13 @@ class SuppliersContent extends React.Component{
                                                 <option>Celestial World II</option>
                                                 <option>Ekstasia</option>
                                                 <option>Evion</option>
-                                                <option>Genesis DE</option>
-                                                <option>Rubinum DE</option>
+                                                <option>Germania (Genesis)</option>
+                                                <option>Anima</option>
                                                 <option>Nayah II</option>
                                                 <option>Nexus II</option>
                                                 <option>Origins II</option>
                                                 <option>Sepherion</option>
-                                                <option>Someya</option>
+                                                <option>Xaleas</option>
                                                 
                                             </Form.Control>
                                         </Form.Group> 
@@ -165,7 +165,7 @@ class SuppliersContent extends React.Component{
 
                             <Row>
                                 <Col>
-                                    <div>TIP: We will do our best to contact you as soon as possible, but you can assure the quickest reponse by contacting us on whichever platform you prefer.</div>
+                                    <div>TIP: We will do our best to contact you as soon as possible, but you can assure the quickest reponse by contacting us on Live Chat, Discord or Skype.</div>
                                 
                                 </Col>
                             </Row>
