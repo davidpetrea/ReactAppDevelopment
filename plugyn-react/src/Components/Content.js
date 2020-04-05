@@ -54,7 +54,7 @@ class Content extends React.Component{
                                 <Server image={background8} serverName="Germania" price="10 won/1kkk = 10 €" serverDescription="As part of the most populated official server, the old Genesis community will make sure you have a great time and enjoy the experience."/>
                             </div>
                             <div className="row">
-                                <Server image={background9} serverName="Teuotonia" price="10 won/1kkk = 10 €" serverDescription="As any other official server, Teutonia takes the meaning of balanced and long lasting oldschool gaming experiences to the next level."/>
+                                <Server image={background9} serverName="Teutonia" price="10 won/1kkk = 10 €" serverDescription="As any other official server, Teutonia takes the meaning of balanced and long lasting oldschool gaming experiences to the next level."/>
                                 <Server image={background10} serverName="Columba" price="10 won/1kkk = 10 €" serverDescription="After the recent server merge, Columba became the home of many communities united by a common goal. To have the most fun and grow together."/>
                             </div>
                             
