@@ -16,7 +16,7 @@ class Reviews extends React.Component{
                     <div className="stars-container">
                         <img className="stars" src={Stars} alt="stars"></img>
                     </div>
-                    <div className="reviews-text">With over <span className="rates">800</span>  unique positive reviews on</div>
+                    <div className="reviews-text">With over <span className="rates">850</span>  unique positive reviews on</div>
                     <div className="elite-text"><a href="https://www.elitepvpers.com/forum/members/7528862-plugyn.html" target="_blank" rel="noopener noreferrer" className="elite-text-style">ELITEPVPERS.COM</a></div>
                     <div>
                         <a href="https://www.elitepvpers.com/forum/metin2-trading/4599199-all-private-servers-450-positive-reviews-yangstore-plugyn-cheap-safe.html" target="_blank" rel="noopener noreferrer"><button className="button-4">Check our thread</button></a>

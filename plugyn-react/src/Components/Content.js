@@ -11,6 +11,8 @@ import background7 from "../metin2wp7edit.png"
 import background8 from "../metin2wp8edit.png"
 import background9 from "../metin2wp9edit.png"
 import background10 from "../metin2wp10edit.png"
+import background11 from "../metin2wp11edit.png"
+import background12 from "../metin2wp12edit.png"
 
 class Content extends React.Component{
     render() {
@@ -56,6 +58,10 @@ class Content extends React.Component{
                             <div className="row">
                                 <Server image={background9} serverName="Teutonia" price="10 won/1kkk = 10 €" serverDescription="As any other official server, Teutonia takes the meaning of balanced and long lasting oldschool gaming experiences to the next level."/>
                                 <Server image={background10} serverName="Columba" price="10 won/1kkk = 10 €" serverDescription="After the recent server merge, Columba became the home of many communities united by a common goal. To have the most fun and grow together."/>
+                            </div>
+                            <div className="row">
+                                <Server image={background11} serverName="Communio" price="18 kk = 10 €" serverDescription="Communio represents exactly what is says: a place for everyone, a fresh start where new adventurers can join and compete in the long run."/>
+                                <Server image={background12} serverName="Sodalitas" price="10 kk = 10 €" serverDescription="Sodalitas is the clearest example of what the Metin2 community needs: high-quality, stable experiences of the oldschool grind that everyone is nostalgic for. "/>
                             </div>
                             
                         </div>
