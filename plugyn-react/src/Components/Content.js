@@ -45,7 +45,7 @@ class Content extends React.Component{
                             </div>
                             <div  className="row">
                                 <Server image={backgroundMenor} serverName="Age of Menor" price="1.2kkk Yang = 10 €" serverDescription="There’s nothing on the market quite like Age of Menor. This International server brings back the old-school vibes that made you fall in love with Metin2 in the first place. Feeling nostalgic? Give this highly-populated server a try."/>
-                                <Server image={backgroundAeldra} serverName="Xaleas" price="150kk Yang = 10 €" serverDescription="Xaleas is a brand new server that nailed the perfect combination of oldschool and middleschool. With a nice progressive system focused on PvM, this server will surely make you want to stay."/>
+                                <Server image={backgroundAeldra} serverName="Xaleas" price="310kk Yang = 10 €" serverDescription="Xaleas is a brand new server that nailed the perfect combination of oldschool and middleschool. With a nice progressive system focused on PvM, this server will surely make you want to stay."/>
                             </div>
                             <div className="row">
                                 <Server image={background6} serverName="Nexus II" price="3kkk Yang = 10 €" serverDescription="The definition of a PvM experience, this server brings a great deal of content to the table. An ever-growing community that actually makes its voice heard awaits for you!"/>
