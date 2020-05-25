@@ -40,15 +40,15 @@ class Content extends React.Component{
                         </div>
                         <div className="container servers">
                             <div className="row">
-                                <Server image={backgroundEkstasia} serverName="Origins II" price="50kkk Yang = 10 €" serverDescription="With over 2000 players online, Origins2 has been a stable server for the past 8 months, enjoyable for those of you who are looking for a PvM – medium experience."/>
-                                <Server image={backgroundCelestial} serverName="Celestial World II" price="55k Lagis = 10 €" serverDescription="This 6-year old new-school metin2 is still kicking. One of the most unique-rich servers on the market, with mechanics similar to those in Diablo and Path of Exile, is waiting for you."/>
+                                <Server image={backgroundCelestial} serverName="Rubinum" price="400kk Yang = 10 €" serverDescription="After a year long break, Rubinum, the genre defining private server, is finally back. There is no better time than now to join and climb the ladder of most promising private server out there at the moment."/>
+                                <Server image={backgroundEkstasia} serverName="Origins II" price="60kkk Yang = 10 €" serverDescription="With over 2000 players online, Origins2 has been a stable server for the past 8 months, enjoyable for those of you who are looking for a PvM – medium experience."/>
                             </div>
                             <div  className="row">
                                 <Server image={backgroundMenor} serverName="Age of Menor" price="1.5kkk Yang = 10 €" serverDescription="There’s nothing on the market quite like Age of Menor. This International server brings back the old-school vibes that made you fall in love with Metin2 in the first place. Feeling nostalgic? Give this highly-populated server a try."/>
                                 <Server image={backgroundAeldra} serverName="Xaleas" price="2kkk Yang = 10 €" serverDescription="Xaleas is a brand new server that nailed the perfect combination of oldschool and middleschool. With a nice progressive system focused on PvM, this server will surely make you want to stay."/>
                             </div>
                             <div className="row">
-                                <Server image={background6} serverName="Rubinum" price="120kk Yang = 10 €" serverDescription="After a year long break, Rubinum, the genre defining private server, is finally back. There is no better time than now to join and climb the ladder of most promising private server out there at the moment."/>
+                                <Server image={background6} serverName="Celestial World II" price="60k Lagis = 10 €" serverDescription="This 6-year old new-school metin2 is still kicking. One of the most unique-rich servers on the market, with mechanics similar to those in Diablo and Path of Exile, is waiting for you."/>
                                 <Server image={background5} serverName="Evion II" price="2.4kkk Yang = 10 €" serverDescription="Beginner-friendly and International, Evion2 is sure to please those of you who are looking for an adventure. Grab your friends and jump in this promising PvM experience together."/>
                             </div>
                             <div className="row">
