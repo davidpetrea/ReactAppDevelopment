@@ -41,7 +41,7 @@ class Content extends React.Component{
                         <div className="container servers">
                             <div className="row">
                                 <Server image={backgroundCelestial} serverName="Rubinum" price="2.5kkk Yang = 10 €" serverDescription="After a year long break, Rubinum, the genre defining private server, is finally back. There is no better time than now to join and climb the ladder of most promising private server out there at the moment."/>
-                                <Server image={backgroundEkstasia} serverName="Origins II" price="60kkk Yang = 10 €" serverDescription="With over 2000 players online, Origins2 has been a stable server for the past 8 months, enjoyable for those of you who are looking for a PvM – medium experience."/>
+                                <Server image={backgroundEkstasia} serverName="Origins II" price="50kkk Yang = 10 €" serverDescription="With over 2000 players online, Origins2 has been a stable server for the past 8 months, enjoyable for those of you who are looking for a PvM – medium experience."/>
                             </div>
                             <div  className="row">
                                 <Server image={backgroundMenor} serverName="Age of Menor" price="1.5kkk Yang = 10 €" serverDescription="There’s nothing on the market quite like Age of Menor. This International server brings back the old-school vibes that made you fall in love with Metin2 in the first place. Feeling nostalgic? Give this highly-populated server a try."/>
