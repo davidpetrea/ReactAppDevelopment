@@ -13,6 +13,7 @@ import background9 from "../metin2wp9edit.png"
 import background10 from "../metin2wp10edit.png"
 import background11 from "../metin2wp11edit.png"
 import background12 from "../metin2wp12edit.png"
+import background13 from "../metin2wp13edit.png"
 
 class Content extends React.Component{
     render() {
@@ -40,8 +41,9 @@ class Content extends React.Component{
                         </div>
                         <div className="container servers">
                             <div className="row">
-                                <Server image={backgroundCelestial} serverName="Rubinum" price="2.5kkk Yang = 10 €" serverDescription="After a year long break, Rubinum, the genre defining private server, is finally back. There is no better time than now to join and climb the ladder of most promising private server out there at the moment."/>
                                 <Server image={backgroundEkstasia} serverName="Origins II" price="60kkk Yang = 10 €" serverDescription="With over 2000 players online, Origins2 has been a stable server for the past 8 months, enjoyable for those of you who are looking for a PvM – medium experience."/>
+                                <Server image={background13} serverName="WoM II" price="1.5 kkk = 10 €" serverDescription="WoM II is one of the oldest private servers that combines a harder but more rewarding approach with stability and high standards. There will always be a place waiting for you on WoM II!"/>
+
                             </div>
                             <div  className="row">
                                 <Server image={backgroundMenor} serverName="Age of Menor" price="1.7kkk Yang = 10 €" serverDescription="There’s nothing on the market quite like Age of Menor. This International server brings back the old-school vibes that made you fall in love with Metin2 in the first place. Feeling nostalgic? Give this highly-populated server a try."/>
@@ -62,6 +64,9 @@ class Content extends React.Component{
                             <div className="row">
                                 <Server image={background11} serverName="Communio" price="70 kk = 10 €" serverDescription="Communio represents exactly what is says: a place for everyone, a fresh start where new adventurers can join and compete in the long run."/>
                                 <Server image={background12} serverName="Sodalitas" price="70 kk = 10 €" serverDescription="Sodalitas is the clearest example of what the Metin2 community needs: high-quality, stable experiences of the oldschool grind that everyone is nostalgic for. "/>
+                            </div>
+                            <div className="row">     
+                                 <Server image={backgroundCelestial} serverName="Rubinum" price="COMING SOON" serverDescription="After a year long break, Rubinum, the genre defining private server, is finally back. There is no better time than now to join and climb the ladder of most promising private server out there at the moment."/>
                             </div>
                             
                         </div>

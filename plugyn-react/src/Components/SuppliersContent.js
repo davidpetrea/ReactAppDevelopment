@@ -125,15 +125,18 @@ class SuppliersContent extends React.Component{
                                             <Form.Control as="select" name="server"  onChange={this.updateInput} value={this.state.server}>
                                                 <option>Age of Menor</option>
                                                 <option>Celestial World II</option>
-                                                <option>Ekstasia</option>
-                                                <option>Evion</option>
-                                                <option>Germania (Genesis)</option>
-                                                <option>Anima</option>
-                                                <option>Nayah II</option>
-                                                <option>Nexus II</option>
-                                                <option>Origins II</option>
-                                                <option>Sepherion</option>
                                                 <option>Xaleas</option>
+                                                <option>Evion</option>
+                                                <option>WoM2</option>
+                                                <option>Origins II</option>
+                                                <option>Germania</option>
+                                                <option>Anima</option>
+                                                <option>Teutonia</option>
+                                                <option>Columba</option>
+                                                <option>Communio</option>
+                                                <option>Sodalitas</option>
+                                                <option>Rubinum</option>
+                                                
                                                 
                                             </Form.Control>
                                         </Form.Group> 
