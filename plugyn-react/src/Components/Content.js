@@ -41,10 +41,10 @@ class Content extends React.Component{
                         </div>
                         <div className="container servers">
                             <div className="row">     
-                                 <Server image={backgroundCelestial} serverName="Rubinum" price="4.2kkk = 10 €" serverDescription="After a year long break, Rubinum, the genre defining private server, is finally back. There is no better time than now to join and climb the ladder of most promising private server out there at the moment."/>
+                                 <Server image={backgroundCelestial} serverName="Rubinum" price="6kkk = 10 €" serverDescription="After a year long break, Rubinum, the genre defining private server, is finally back. There is no better time than now to join and climb the ladder of most promising private server out there at the moment."/>
                             </div>
                             <div className="row">
-                                <Server image={backgroundEkstasia} serverName="Origins II" price="60kkk Yang = 10 €" serverDescription="With over 2000 players online, Origins2 has been a stable server for the past 8 months, enjoyable for those of you who are looking for a PvM – medium experience."/>
+                                <Server image={backgroundEkstasia} serverName="Origins II" price="90kkk Yang = 10 €" serverDescription="With over 2000 players online, Origins2 has been a stable server for the past 8 months, enjoyable for those of you who are looking for a PvM – medium experience."/>
                                 <Server image={background13} serverName="WoM II" price="1.5 kkk = 10 €" serverDescription="WoM II is one of the oldest private servers that combines a harder but more rewarding approach with stability and high standards. There will always be a place waiting for you on WoM II!"/>
 
                             </div>
@@ -65,8 +65,8 @@ class Content extends React.Component{
                                 <Server image={background10} serverName="Columba" price="11 won/1.1kkk = 10 €" serverDescription="After the recent server merge, Columba became the home of many communities united by a common goal. To have the most fun and grow together."/>
                             </div>
                             <div className="row">
-                                <Server image={background11} serverName="Communio" price="70 kk = 10 €" serverDescription="Communio represents exactly what is says: a place for everyone, a fresh start where new adventurers can join and compete in the long run."/>
-                                <Server image={background12} serverName="Sodalitas" price="70 kk = 10 €" serverDescription="Sodalitas is the clearest example of what the Metin2 community needs: high-quality, stable experiences of the oldschool grind that everyone is nostalgic for. "/>
+                                <Server image={background11} serverName="Communio" price="80 kk = 10 €" serverDescription="Communio represents exactly what is says: a place for everyone, a fresh start where new adventurers can join and compete in the long run."/>
+                                <Server image={background12} serverName="Sodalitas" price="75 kk = 10 €" serverDescription="Sodalitas is the clearest example of what the Metin2 community needs: high-quality, stable experiences of the oldschool grind that everyone is nostalgic for. "/>
                             </div>
                             
                             
