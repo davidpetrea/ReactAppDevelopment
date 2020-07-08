@@ -37,7 +37,7 @@ class AboutContent extends React.Component{
                            </div>
 
                            <div className="col-lg-12 how-paragraph">
-                           One year ago we started on a journey with one thing in mind: creating a better experience for gamers everywhere.So, 1200 unique customers and 1300 trades later, we can now proudly call ourselves one of the best Metin2 traders on the market. And we are still on the rise.
+                           One year ago we started on a journey with one thing in mind: creating a better experience for gamers everywhere. So, 1300 unique customers and over 1500 trades later, we can now proudly call ourselves one of the best Metin2 traders on the market. And we are still on the rise.
                             </div>
 
                             <div className="col-lg-12 how-paragraph">
